@@ -8,11 +8,11 @@
     "java": {
         "oracle": "http://www.oracle.com/technetwork/java/javase/downloads/jre8-downloads-2133155.html"
     },
-    "rss": "https://forum.westeroscraft.com/forum/news.2/index.rss",
+    "rss": "https://raw.githubusercontent.com/Zooto199/Luscious-Lunary-Furry/main/app/assets/images/news.rss",
     "servers": [
         {
             "id": "LusciousLunaryFurry-1.20.1",
-            "name": "Luscious Lunary Furry - Production Server",
+            "name": "Luscious Lunary Furry",
             "description": "Let’s Get Wild and Naughty ! [1.20.1] Forge 47.3.6.",
             "icon": "https://raw.githubusercontent.com/Zooto199/Luscious-Lunary-Furry/main/app/assets/images/server.png",
             "version": "0.0.1",

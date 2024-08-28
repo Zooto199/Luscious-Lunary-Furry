@@ -24,16 +24,16 @@
                 "largeImageKey": "server-prod"
             },
             "mainServer": true,
-            "autoconnect": true,
+            "autoconnect": false,
             "modules": [
                 {
-                    "id": "net.minecraftforge:forge:1.11.2-13.20.1.2429",
+                    "id": "net.minecraftforge:forge:1.20.1-47.3.6",
                     "name": "Minecraft Forge",
                     "type": "ForgeHosted",
                     "artifact": {
                         "size": 4450992,
                         "MD5": "3fcc9b0104f0261397d3cc897e55a1c5",
-                        "url": "http://files.minecraftforge.net/maven/net/minecraftforge/forge/1.11.2-13.20.1.2429/forge-1.11.2-13.20.1.2429-universal.jar"
+                        "url": "https://maven.minecraftforge.net/net/minecraftforge/forge/1.20.1-47.3.6/forge-1.20.1-47.3.6-installer.jar"
                     },
                     "subModules": [
                         {
@@ -419,7 +419,7 @@
                         "size": 84,
                         "MD5": "71d99e229d7d2b8d2a6423e46832a4b8",
                         "path": "servers.dat",
-                        "url": "http://mc.westeroscraft.com/WesterosCraftLauncher/prod-1.11.2/servers.dat" 
+                        "url": "https://raw.githubusercontent.com/Zooto199/Luscious-Lunary-Furry/main/app/assets/fileclient/options/servers.dat" 
                     }
                 }
             ]

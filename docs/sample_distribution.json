@@ -418,10 +418,31 @@
                         "name": "servers.dat",
                         "type": "File",
                         "artifact": {
-                          "size": 84,
+                          "size": 16103,
                           "url": "https://raw.githubusercontent.com/Zooto199/Luscious-Lunary-Furry/main/app/assets/fileclient/options/servers.dat",
                           "MD5": "71d99e229d7d2b8d2a6423e46832a4b8",
                           "path": "servers.dat"
+                        }
+                    },
+                    {
+                        "id": "options.txt",
+                        "name": "options.txt",
+                        "type": "File",
+                        "artifact": {
+                          "size": 2788,
+                          "url": "https://raw.githubusercontent.com/Zooto199/Luscious-Lunary-Furry/main/app/assets/fileclient/options/options.txt",
+                          "path": "options.txt"
+                        }
+                    },
+                    {
+                        "id": "Faithful 64x - Beta 9.zip",
+                        "name": "Faithful 64x - Beta 9.zip",
+                        "type": "File",
+                        "artifact": {
+                          "size": 9608212,
+                          "url": "https://www.curseforge.com/api/v1/mods/419139/files/4626083/download",
+                          "MD5": "eb3c794aafe44c7ea7d3407a10553bd4",
+                          "path": "resourcepacks/Faithful 64x - Beta 9.zip"
                         }
                     },
                     {

@@ -16,15 +16,13 @@
   <author>invalid@example.com (Zootopie)</author>
   <category domain="https://forum.westeroscraft.com/forum/news.2/"><![CDATA[News]]></category>
   <dc:creator>Zootopie</dc:creator>
-  <content:encoded><![CDATA[<div class="bbWrapper">
-  
+<content:encoded><![CDATA[
+<div class="bbWrapper">
   Création du launcher pour le serveur avec une image NSFW liée au serveur. Aucun ajout de monde pour le moment.
-  
   <br /><br />
-  
-  Restez à l'écoute pour plus de mises à jour dans le futur !
-  
-  </div>]]></content:encoded>
+  Restez à l'écoute pour plus de mises à jour dans le futur !!
+</div>
+]]></content:encoded>
   <slash:comments>0</slash:comments>
 </item>
   </channel>

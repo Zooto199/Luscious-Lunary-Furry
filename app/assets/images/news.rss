@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:slash="http://purl.org/rss/1.0/modules/slash/">
+  <channel>
+    <title>News</title>
+    <description>Updates and Announcements</description>
+    <pubDate>Wed, 28 Aug 2024 10:24:54 +0000</pubDate>
+    <lastBuildDate>Wed, 28 Aug 2024 10:24:54 +0000</lastBuildDate>
+    <generator>Luscious Lunary Furry Forums</generator>
+    <link>https://forum.westeroscraft.com/</link>
+    <atom:link rel="self" type="application/rss+xml" href="https://forum.westeroscraft.com/forum/news.2/index.rss"/>
+<item>
+  <title>Luscious Lunary Furry - Update</title>
+  <pubDate>Wed, 28 Aug 2024 15:44:28 +0000</pubDate>
+  <link>https://forum.westeroscraft.com/threads/westerostools-mod.4134/</link>
+  <guid isPermaLink="false">4134</guid>
+  <author>invalid@example.com (Zootopie)</author>
+  <category domain="https://forum.westeroscraft.com/forum/news.2/"><![CDATA[News]]></category>
+  <dc:creator>Zootopie</dc:creator>
+  <content:encoded><![CDATA[<div class="bbWrapper">
+  
+  Création du launcher pour le serveur avec une image NSFW liée au serveur. Aucun ajout de monde pour le moment.
+  
+  <br /><br />
+  
+  Restez à l'écoute pour plus de mises à jour dans le futur !
+  
+  </div>]]></content:encoded>
+  <slash:comments>0</slash:comments>
+</item>
+  </channel>
+</rss>

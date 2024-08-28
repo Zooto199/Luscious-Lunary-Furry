@@ -1,0 +1,20 @@
+# Custom Language File for Launcher Customizer
+
+[ejs.app]
+title = "Luscious Lunary Furry"
+
+[ejs.landing]
+mediaGitHubURL = "https://github.com/dscalzi/HeliosLauncher"
+mediaTwitterURL = "#"
+mediaInstagramURL = "#"
+mediaYouTubeURL = "#"
+mediaDiscordURL = "https://discord.gg/zNWUXdt"
+
+[ejs.settings]
+sourceGithubLink = "https://github.com/dscalZi/HeliosLauncher"
+supportLink = "https://github.com/dscalZi/HeliosLauncher/issues"
+
+[ejs.welcome]
+welcomeHeader = "WELCOME TO LUSCIOUS LUNARY FURRY - WHERE FANTASIES COME ALIVE"
+welcomeDescription = "Dive into the most tantalizing modded experience with your friends in the Luscious Lunary Furry universe. This isn't just any server—it's a playground for those daring enough to explore their wildest dreams. Be warned, though: explicit content is abundant, and the adventures here are strictly for mature audiences. Whether you're looking to get naughty with custom mods or just hang out with fellow adventurers, this is the place where desires take form."
+welcomeDescCTA = "By proceeding, you confirm that you are 18+ and consent to encountering NSFW content on this server."

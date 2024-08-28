@@ -414,6 +414,17 @@
                       }
                     },
                     {
+                        "id": "servers.dat",
+                        "name": "servers.dat",
+                        "type": "File",
+                        "artifact": {
+                          "size": 84,
+                          "url": "https://raw.githubusercontent.com/Zooto199/Luscious-Lunary-Furry/main/app/assets/fileclient/options/servers.dat",
+                          "MD5": "71d99e229d7d2b8d2a6423e46832a4b8",
+                          "path": "servers.dat"
+                        }
+                    },
+                    {
                       "id": "net.minecraftforge:fmlloader:1.20-46.0.2",
                       "name": "Minecraft Forge (fmlloader)",
                       "type": "Library",

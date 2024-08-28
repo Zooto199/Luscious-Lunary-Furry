@@ -1,6 +1,6 @@
 appId: 'LusciousLunaryFurry'
 productName: 'Luscious Lunary Furry'
-artifactName: '${productName}-setup-${version}.${ext}'
+artifactName: 'Luscious-Lunary-Furry-setup-${version}.${ext}'
 
 copyright: 'Copyright © 2018-2024 Zootopie'
 

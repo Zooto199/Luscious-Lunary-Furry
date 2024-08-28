@@ -1,9 +1,9 @@
 {
-  "name": "Luscious Lunary Furry",
+  "name": "LusciousLunaryFurry",
   "version": "0.0.2",
   "productName": "Luscious Lunary Furry",
   "description": "Modded Minecraft Launcher",
-  "author": "Zootopie (https://github.com/Zooto199/)",
+  "author": "Zootopie (https://github.com/Zooto199)",
   "license": "UNLICENSED",
   "homepage": "https://github.com/Zooto199/Luscious-Lunary-Furry",
   "bugs": {
@@ -17,7 +17,8 @@
     "dist:win": "npm run dist -- -w",
     "dist:mac": "npm run dist -- -m",
     "dist:linux": "npm run dist -- -l",
-    "lint": "eslint --config .eslintrc.json ."
+    "lint": "eslint --config .eslintrc.json .",
+    "build": "electron-builder"
   },
   "engines": {
     "node": "20.x.x"
@@ -40,7 +41,7 @@
     "toml": "^3.0.0"
   },
   "devDependencies": {
-    "electron": "^30.0.1",
+    "electron": "^30.4.0",
     "electron-builder": "^24.13.3",
     "eslint": "^8.57.0"
   },

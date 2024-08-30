@@ -76,47 +76,6 @@ Sélectionne l'installateur pour ton système dans l'onglet [Releases](https://g
 
 ---
 
-### Visual Studio Code
-
-Tout le développement du launcher devrait être effectué avec [Visual Studio Code](https://code.visualstudio.com/).
-
-Colle le code suivant dans `.vscode/launch.json` :
-
-```json
-{
-  "version": "0.2.0",
-  "configurations": [
-    {
-      "name": "Debug Main Process",
-      "type": "node",
-      "request": "launch",
-      "cwd": "${workspaceFolder}",
-      "program": "${workspaceFolder}/node_modules/electron/cli.js",
-      "args" : ["."],
-      "outputCapture": "std"
-    },
-    {
-      "name": "Debug Renderer Process",
-      "type": "chrome",
-      "request": "launch",
-      "runtimeExecutable": "${workspaceFolder}/node_modules/.bin/electron",
-      "windows": {
-        "runtimeExecutable": "${workspaceFolder}/node_modules/.bin/electron.cmd"
-      },
-      "runtimeArgs": [
-        "${workspaceFolder}/.",
-        "--remote-debugging-port=9222"
-      ],
-      "webRoot": "${workspaceFolder}"
-    }
-  ]
-}
-```
-
-Cela ajoute deux configurations de debug.
-
----
-
 ### Ressources
 
 * [Documentation](#)

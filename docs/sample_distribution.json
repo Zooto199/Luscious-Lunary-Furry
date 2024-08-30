@@ -1,463 +1,1123 @@
 {
-    "version": "0.0.1",
-    "discord": {
-        "clientId": "385581240906022916",
-        "smallImageText": "WesterosCraft",
-        "smallImageKey": "seal-circle"
-    },
-    "java": {
-        "oracle": "http://www.oracle.com/technetwork/java/javase/downloads/jre8-downloads-2133155.html"
-    },
-    "rss": "https://raw.githubusercontent.com/Zooto199/Luscious-Lunary-Furry/main/app/assets/images/news.rss",
-    "servers": [
-        {
-            "id": "LusciousLunaryFurry-1.20.1",
-            "name": "Luscious Lunary Furry",
-            "description": "Let’s Get Wild and Naughty ! [1.20.1] Forge 47.3.6.",
-            "icon": "https://raw.githubusercontent.com/Zooto199/Luscious-Lunary-Furry/main/app/assets/images/server.png",
-            "version": "0.0.1",
-            "address": "lunaryfurry.omgcraft.fr",
-            "minecraftVersion": "1.20.1",
-            "discord": {
-                "shortId": "Production",
-                "largeImageText": "WesterosCraft Production Server",
-                "largeImageKey": "server-prod"
-            },
-            "mainServer": true,
-            "autoconnect": false,
-            "modules": [
-                {
-                  "id": "net.minecraftforge:lowcodelanguage:1.20.1-47.3.6",
-                  "name": "Minecraft Forge (lowcodelanguage)",
-                  "type": "ForgeHosted",
-                  "classpath": true,
-                  "artifact": {
-                    "size": 7400,
-                    "MD5": "4a69374eb645771ddb0387a9076b450f",
-                    "url": "https://github.com/Zooto199/Luscious-Lunary-Furry/raw/main/app/assets/fileclient/options/lowcodelanguage-1.20.1-47.3.6.jar"
-                  },
-                  "subModules": [
-                    {
-                      "id": "1.20.1-47.3.6",
-                      "name": "Minecraft Forge (version.json)",
-                      "type": "VersionManifest",
-                      "artifact": {
-                        "size": 16962,
-                        "MD5": "1125883344968dbbe14e74cf3ad2b5e8",
-                        "url": "https://api.lunarygames.com/fun/forge"
-                      }
-                    },
-                    {
-                      "id": "net.minecraftforge:fmlcore:1.20.1-47.3.6",
-                      "name": "Minecraft Forge (fmlcore)",
-                      "type": "Library",
-                      "classpath": true,
-                      "artifact": {
-                        "size": 118687,
-                        "MD5": "bac94c804729e0952c84a2e863ad2269",
-                        "url": "https://github.com/Zooto199/Luscious-Lunary-Furry/raw/main/app/assets/fileclient/options/fmlcore-1.20.1-47.3.6.jar"
-                      },
-                      "subModules": []
-                    },
-                    {
-                      "id": "net.minecraftforge:javafmllanguage:1.20.1-47.3.6",
-                      "name": "Minecraft Forge (javafmllanguage)",
-                      "type": "Library",
-                      "classpath": true,
-                      "artifact": {
-                        "size": 16517,
-                        "MD5": "3b25d656c3a0fb057ed308a33ce43c29",
-                        "url": "https://github.com/Zooto199/Luscious-Lunary-Furry/raw/main/app/assets/fileclient/options/javafmllanguage-1.20.1-47.3.6.jar"
-                      },
-                      "subModules": []
-                    },
-                    {
-                      "id": "net.minecraftforge:mclanguage:1.20.1-47.3.6",
-                      "name": "Minecraft Forge (mclanguage)",
-                      "type": "Library",
-                      "classpath": true,
-                      "artifact": {
-                        "size": 5000,
-                        "MD5": "d0eb5fff9d92efcb43b8d708298cc483",
-                        "url": "https://github.com/Zooto199/Luscious-Lunary-Furry/raw/main/app/assets/fileclient/options/mclanguage-1.20.1-47.3.6.jar"
-                      },
-                      "subModules": []
-                    },
-                    {
-                      "id": "net.minecraftforge:forge:1.20.1-47.3.6:universal",
-                      "name": "Minecraft Forge (universal jar)",
-                      "type": "Library",
-                      "classpath": false,
-                      "artifact": {
-                        "size": 2753794,
-                        "MD5": "5dd29a134bd8f6135417bacb5e36408e",
-                        "url": "https://github.com/Zooto199/Luscious-Lunary-Furry/raw/main/app/assets/fileclient/options/forge-1.20.1-47.3.6-universal.jar"
-                      },
-                      "subModules": []
-                    },
-                    {
-                      "id": "net.minecraftforge:forge:1.20.1-47.3.6:client",
-                      "name": "Minecraft Forge (client jar)",
-                      "type": "Library",
-                      "classpath": false,
-                      "artifact": {
-                        "size": 4793846,
-                        "MD5": "55f309ca113761208206ce095c221a29",
-                        "url": "https://github.com/Zooto199/Luscious-Lunary-Furry/raw/main/app/assets/fileclient/options/forge-1.20.1-47.3.6-client.jar"
-                      },
-                      "subModules": []
-                    },
-                    {
-                      "id": "net.minecraft:client:1.20.1-20230612.114412:srg",
-                      "name": "Minecraft Forge (client srg)",
-                      "type": "Library",
-                      "classpath": false,
-                      "artifact": {
-                        "size": 18842082,
-                        "MD5": "d20dc7660df3488916d1cf24b61e08fb",
-                        "url": "https://github.com/Zooto199/Luscious-Lunary-Furry/raw/main/app/assets/fileclient/options/client-1.20.1-20230612.114412-srg.jar"
-                      },
-                      "subModules": []
-                    },
-                    {
-                      "id": "net.minecraft:client:1.20.1-20230612.114412:slim",
-                      "name": "Minecraft Forge (client slim)",
-                      "type": "Library",
-                      "classpath": false,
-                      "artifact": {
-                        "size": 12592249,
-                        "MD5": "6fbeb6a4a0dc55cb90e9334885918053",
-                        "url": "https://github.com/Zooto199/Luscious-Lunary-Furry/raw/main/app/assets/fileclient/options/client-1.20.1-20230612.114412-slim.jar"
-                      },
-                      "subModules": []
-                    },
-                    {
-                      "id": "net.minecraft:client:1.20.1-20230612.114412:extra",
-                      "name": "Minecraft Forge (client extra)",
-                      "type": "Library",
-                      "classpath": false,
-                      "artifact": {
-                        "size": 10436626,
-                        "MD5": "f4f8be138812304b01638fbf5c6ff81a",
-                        "url": "https://github.com/Zooto199/Luscious-Lunary-Furry/raw/main/app/assets/fileclient/options/client-1.20.1-20230612.114412-extra.jar"
-                      },
-                      "subModules": []
-                    },
-                    {
-                      "id": "cpw.mods:securejarhandler:2.1.10",
-                      "name": "Minecraft Forge (securejarhandler)",
-                      "type": "Library",
-                      "artifact": {
-                        "size": 88749,
-                        "MD5": "8a4e7e2770d7147d7551d1f3ad835baa",
-                        "url": "https://github.com/Zooto199/Luscious-Lunary-Furry/raw/main/app/assets/fileclient/options/securejarhandler-2.1.10.jar"
-                      }
-                    },
-                    {
-                      "id": "org.ow2.asm:asm:9.7",
-                      "name": "Minecraft Forge (asm)",
-                      "type": "Library",
-                      "artifact": {
-                        "size": 125428,
-                        "MD5": "29721ee4b5eacf0a34b204c345c8bc69",
-                        "url": "https://github.com/Zooto199/Luscious-Lunary-Furry/raw/main/app/assets/fileclient/options/asm-9.7.jar"
-                      }
-                    },
-                    {
-                      "id": "org.ow2.asm:asm-commons:9.7",
-                      "name": "Minecraft Forge (asm-commons)",
-                      "type": "Library",
-                      "artifact": {
-                        "size": 73426,
-                        "MD5": "7d1fce986192f71722b19754e4cb9e61",
-                        "url": "https://github.com/Zooto199/Luscious-Lunary-Furry/raw/main/app/assets/fileclient/options/asm-commons-9.7.jar"
-                      }
-                    },
-                    {
-                      "id": "org.ow2.asm:asm-tree:9.7",
-                      "name": "Minecraft Forge (asm-tree)",
-                      "type": "Library",
-                      "artifact": {
-                        "size": 51934,
-                        "MD5": "44755681b7d6fa7143afbb438e55c20c",
-                        "url": "https://github.com/Zooto199/Luscious-Lunary-Furry/raw/main/app/assets/fileclient/options/asm-tree-9.7.jar"
-                      }
-                    },
-                    {
-                      "id": "org.ow2.asm:asm-util:9.7",
-                      "name": "Minecraft Forge (asm-util)",
-                      "type": "Library",
-                      "artifact": {
-                        "size": 93784,
-                        "MD5": "ad0016249fb68bb9196babefd47b80dc",
-                        "url": "https://github.com/Zooto199/Luscious-Lunary-Furry/raw/main/app/assets/fileclient/options/asm-util-9.7.jar"
-                      }
-                    },
-                    {
-                      "id": "org.ow2.asm:asm-analysis:9.7",
-                      "name": "Minecraft Forge (asm-analysis)",
-                      "type": "Library",
-                      "artifact": {
-                        "size": 34776,
-                        "MD5": "4df0adafc78ebba404d4037987d36b61",
-                        "url": "https://github.com/Zooto199/Luscious-Lunary-Furry/raw/main/app/assets/fileclient/options/asm-analysis-9.7.jar"
-                      }
-                    },
-                    {
-                      "id": "net.minecraftforge:accesstransformers:8.0.4",
-                      "name": "Minecraft Forge (accesstransformers)",
-                      "type": "Library",
-                      "artifact": {
-                        "size": 77756,
-                        "MD5": "f0d3533f9437ba4428eaee9f28f7ecd9",
-                        "url": "https://github.com/Zooto199/Luscious-Lunary-Furry/raw/main/app/assets/fileclient/options/accesstransformers-8.0.4.jar"
-                      }
-                    },
-                    {
-                      "id": "org.antlr:antlr4-runtime:4.9.1",
-                      "name": "Minecraft Forge (antlr4-runtime)",
-                      "type": "Library",
-                      "artifact": {
-                        "size": 337868,
-                        "MD5": "0dcc4b860d5d8d2852ab94d58c56ca2d",
-                        "url": "https://github.com/Zooto199/Luscious-Lunary-Furry/raw/main/app/assets/fileclient/options/antlr4-runtime-4.9.1.jar"
-                      }
-                    },
-                    {
-                      "id": "net.minecraftforge:eventbus:6.0.5",
-                      "name": "Minecraft Forge (eventbus)",
-                      "type": "Library",
-                      "artifact": {
-                        "size": 53985,
-                        "MD5": "7c93693a70962a1c1893e3c058dca5cf",
-                        "url": "https://github.com/Zooto199/Luscious-Lunary-Furry/raw/main/app/assets/fileclient/options/eventbus-6.0.5.jar"
-                      }
-                    },
-                    {
-                      "id": "net.minecraftforge:forgespi:7.0.1",
-                      "name": "Minecraft Forge (forgespi)",
-                      "type": "Library",
-                      "artifact": {
-                        "size": 29831,
-                        "MD5": "b1bf9c45a33a749ed58b15d679925243",
-                        "url": "https://github.com/Zooto199/Luscious-Lunary-Furry/raw/main/app/assets/fileclient/options/forgespi-7.0.1.jar"
-                      }
-                    },
-                    {
-                      "id": "net.minecraftforge:coremods:5.1.6",
-                      "name": "Minecraft Forge (coremods)",
-                      "type": "Library",
-                      "artifact": {
-                        "size": 24124,
-                        "MD5": "8c590051c5d65e098ca7c2e3ddf803a8",
-                        "url": "https://github.com/Zooto199/Luscious-Lunary-Furry/raw/main/app/assets/fileclient/options/coremods-5.1.6.jar"
-                      }
-                    },
-                    {
-                      "id": "cpw.mods:modlauncher:10.0.9",
-                      "name": "Minecraft Forge (modlauncher)",
-                      "type": "Library",
-                      "artifact": {
-                        "size": 130343,
-                        "MD5": "3e171edcc29e762d2ecafffabb9e9341",
-                        "url": "https://github.com/Zooto199/Luscious-Lunary-Furry/raw/main/app/assets/fileclient/options/modlauncher-10.0.9.jar"
-                      }
-                    },
-                    {
-                      "id": "net.minecraftforge:unsafe:0.2.0",
-                      "name": "Minecraft Forge (unsafe)",
-                      "type": "Library",
-                      "artifact": {
-                        "size": 2834,
-                        "MD5": "2d1016ebe4c1a63dd50a59d26bd12db1",
-                        "url": "https://github.com/Zooto199/Luscious-Lunary-Furry/raw/main/app/assets/fileclient/options/unsafe-0.2.0.jar"
-                      }
-                    },
-                    {
-                      "id": "net.minecraftforge:mergetool:1.1.5:api",
-                      "name": "Minecraft Forge (mergetool)",
-                      "type": "Library",
-                      "artifact": {
-                        "size": 2572,
-                        "MD5": "8df9c5bf87d004ddb884eca99bc2a4b1",
-                        "url": "https://github.com/Zooto199/Luscious-Lunary-Furry/raw/main/app/assets/fileclient/options/mergetool-1.1.5-api.jar"
-                      }
-                    },
-                    {
-                      "id": "com.electronwill.night-config:core:3.6.4",
-                      "name": "Minecraft Forge (core)",
-                      "type": "Library",
-                      "artifact": {
-                        "size": 199834,
-                        "MD5": "d83ab07267e402131fb93d899a57f5cd",
-                        "url": "https://github.com/Zooto199/Luscious-Lunary-Furry/raw/main/app/assets/fileclient/options/core-3.6.4.jar"
-                      }
-                    },
-                    {
-                      "id": "com.electronwill.night-config:toml:3.6.4",
-                      "name": "Minecraft Forge (toml)",
-                      "type": "Library",
-                      "artifact": {
-                        "size": 31816,
-                        "MD5": "bc95d0709fff2164b01fd09fbc988be8",
-                        "url": "https://github.com/Zooto199/Luscious-Lunary-Furry/raw/main/app/assets/fileclient/options/toml-3.6.4.jar"
-                      }
-                    },
-                    {
-                      "id": "org.apache.maven:maven-artifact:3.8.5",
-                      "name": "Minecraft Forge (maven-artifact)",
-                      "type": "Library",
-                      "artifact": {
-                        "size": 58077,
-                        "MD5": "ce473b0d9fbfd10fe147f03fe8707d67",
-                        "url": "https://github.com/Zooto199/Luscious-Lunary-Furry/raw/main/app/assets/fileclient/options/maven-artifact-3.8.5.jar"
-                      }
-                    },
-                    {
-                      "id": "net.jodah:typetools:0.6.3",
-                      "name": "Minecraft Forge (typetools)",
-                      "type": "Library",
-                      "artifact": {
-                        "size": 18281,
-                        "MD5": "ee4596e1413cc1a5e080c971d6064753",
-                        "url": "https://github.com/Zooto199/Luscious-Lunary-Furry/raw/main/app/assets/fileclient/options/typetools-0.6.3.jar"
-                      }
-                    },
-                    {
-                      "id": "net.minecrell:terminalconsoleappender:1.2.0",
-                      "name": "Minecraft Forge (terminalconsoleappender)",
-                      "type": "Library",
-                      "artifact": {
-                        "size": 15977,
-                        "MD5": "679363fa893293791e55a21f81342f87",
-                        "url": "https://github.com/Zooto199/Luscious-Lunary-Furry/raw/main/app/assets/fileclient/options/terminalconsoleappender-1.2.0.jar"
-                      }
-                    },
-                    {
-                      "id": "org.jline:jline-reader:3.12.1",
-                      "name": "Minecraft Forge (jline-reader)",
-                      "type": "Library",
-                      "artifact": {
-                        "size": 150765,
-                        "MD5": "a2e7b012cd9802f83321187409174a94",
-                        "url": "https://github.com/Zooto199/Luscious-Lunary-Furry/raw/main/app/assets/fileclient/options/jline-reader-3.12.1.jar"
-                      }
-                    },
-                    {
-                      "id": "org.jline:jline-terminal:3.12.1",
-                      "name": "Minecraft Forge (jline-terminal)",
-                      "type": "Library",
-                      "artifact": {
-                        "size": 211712,
-                        "MD5": "3c52be5ab5e3847be6e62269de924cb0",
-                        "url": "https://github.com/Zooto199/Luscious-Lunary-Furry/raw/main/app/assets/fileclient/options/jline-terminal-3.12.1.jar"
-                      }
-                    },
-                    {
-                      "id": "org.spongepowered:mixin:0.8.5",
-                      "name": "Minecraft Forge (mixin)",
-                      "type": "Library",
-                      "artifact": {
-                        "size": 1089277,
-                        "MD5": "19b3a2ae9e445a6e626fd7d1648cfcb8",
-                        "url": "https://github.com/Zooto199/Luscious-Lunary-Furry/raw/main/app/assets/fileclient/options/mixin-0.8.5.jar"
-                      }
-                    },
-                    {
-                      "id": "org.openjdk.nashorn:nashorn-core:15.3",
-                      "name": "Minecraft Forge (nashorn-core)",
-                      "type": "Library",
-                      "artifact": {
-                        "size": 2167288,
-                        "MD5": "91e98c20afa1090c344229ce28b4c53f",
-                        "url": "https://github.com/Zooto199/Luscious-Lunary-Furry/raw/main/app/assets/fileclient/options/nashorn-core-15.3.jar"
-                      }
-                    },
-                    {
-                      "id": "net.minecraftforge:JarJarSelector:0.3.19",
-                      "name": "Minecraft Forge (JarJarSelector)",
-                      "type": "Library",
-                      "artifact": {
-                        "size": 17374,
-                        "MD5": "2bb6cbe0e6c6fbcd8f92d2e6b1ea678e",
-                        "url": "https://github.com/Zooto199/Luscious-Lunary-Furry/raw/main/app/assets/fileclient/options/JarJarSelector-0.3.19.jar"
-                      }
-                    },
-                    {
-                      "id": "net.minecraftforge:JarJarMetadata:0.3.19",
-                      "name": "Minecraft Forge (JarJarMetadata)",
-                      "type": "Library",
-                      "artifact": {
-                        "size": 15895,
-                        "MD5": "9633546d299d4282ca68d10582be1c8f",
-                        "url": "https://github.com/Zooto199/Luscious-Lunary-Furry/raw/main/app/assets/fileclient/options/JarJarMetadata-0.3.19.jar"
-                      }
-                    },
-                    {
-                      "id": "cpw.mods:bootstraplauncher:1.1.2",
-                      "name": "Minecraft Forge (bootstraplauncher)",
-                      "type": "Library",
-                      "artifact": {
-                        "size": 8284,
-                        "MD5": "48f5255aa337344c467c0150d347813d",
-                        "url": "https://github.com/Zooto199/Luscious-Lunary-Furry/raw/main/app/assets/fileclient/options/bootstraplauncher-1.1.2.jar"
-                      }
-                    },
-                    {
-                      "id": "net.minecraftforge:JarJarFileSystems:0.3.19",
-                      "name": "Minecraft Forge (JarJarFileSystems)",
-                      "type": "Library",
-                      "artifact": {
-                        "size": 32195,
-                        "MD5": "c2be1a88b63eb1b58b00ab6e498cd97d",
-                        "url": "https://github.com/Zooto199/Luscious-Lunary-Furry/raw/main/app/assets/fileclient/options/JarJarFileSystems-0.3.19.jar"
-                      }
-                    },
-                    {
-                        "id": "servers.dat",
-                        "name": "servers.dat",
-                        "type": "File",
-                        "artifact": {
-                          "size": 16103,
-                          "url": "https://raw.githubusercontent.com/Zooto199/Luscious-Lunary-Furry/main/app/assets/fileclient/options/servers.dat",
-                          "MD5": "71d99e229d7d2b8d2a6423e46832a4b8",
-                          "path": "servers.dat"
-                        }
-                    },
-                    {
-                        "id": "options.txt",
-                        "name": "options.txt",
-                        "type": "File",
-                        "artifact": {
-                          "size": 3378,
-                          "url": "https://raw.githubusercontent.com/Zooto199/Luscious-Lunary-Furry/main/app/assets/fileclient/options/options.txt",
-                          "path": "options.txt"
-                        }
-                    },
-                    {
-                        "id": "Faithful 64x - Beta 9.zip",
-                        "name": "Faithful 64x - Beta 9.zip",
-                        "type": "File",
-                        "artifact": {
-                          "size": 9608212,
-                          "url": "https://www.curseforge.com/api/v1/mods/419139/files/4626083/download",
-                          "MD5": "eb3c794aafe44c7ea7d3407a10553bd4",
-                          "path": "resourcepacks/Faithful 64x - Beta 9.zip"
-                        }
-                    },
-                    {
-                      "id": "net.minecraftforge:fmlloader:1.20-46.0.2",
-                      "name": "Minecraft Forge (fmlloader)",
-                      "type": "Library",
-                      "artifact": {
-                        "size": 264783,
-                        "MD5": "99825c1cc845cf542284efa122e1b96e",
-                        "url": "https://github.com/Zooto199/Luscious-Lunary-Furry/raw/main/app/assets/fileclient/options/fmlloader-1.20.1-47.3.6.jar"
-                      }
+  "version": "0.0.1",
+  "discord": {
+      "clientId": "385581240906022916",
+      "smallImageText": "WesterosCraft",
+      "smallImageKey": "seal-circle"
+  },
+  "java": {
+      "oracle": "http://www.oracle.com/technetwork/java/javase/downloads/jre8-downloads-2133155.html"
+  },
+  "rss": "https://raw.githubusercontent.com/Zooto199/Luscious-Lunary-Furry/main/app/assets/images/news.rss",
+  "servers": [
+      {
+          "id": "LusciousLunaryFurry-1.20.1",
+          "name": "Luscious Lunary Furry",
+          "description": "Let’s Get Wild and Naughty ! [1.20.1] Forge 47.3.6.",
+          "icon": "https://raw.githubusercontent.com/Zooto199/Luscious-Lunary-Furry/main/app/assets/images/server.png",
+          "version": "0.0.1",
+          "address": "lunaryfurry.omgcraft.fr",
+          "minecraftVersion": "1.20.1",
+          "discord": {
+              "shortId": "Production",
+              "largeImageText": "WesterosCraft Production Server",
+              "largeImageKey": "server-prod"
+          },
+          "mainServer": true,
+          "autoconnect": false,
+          "modules": [
+              {
+                "id": "net.minecraftforge:lowcodelanguage:1.20.1-47.3.6",
+                "name": "Minecraft Forge (lowcodelanguage)",
+                "type": "ForgeHosted",
+                "classpath": true,
+                "artifact": {
+                  "size": 7400,
+                  "MD5": "4a69374eb645771ddb0387a9076b450f",
+                  "url": "https://github.com/Zooto199/Luscious-Lunary-Furry/raw/main/app/assets/fileclient/options/lowcodelanguage-1.20.1-47.3.6.jar"
+                },
+                "subModules": [
+                  {
+                    "id": "1.20.1-47.3.6",
+                    "name": "Minecraft Forge (version.json)",
+                    "type": "VersionManifest",
+                    "artifact": {
+                      "size": 16962,
+                      "MD5": "1125883344968dbbe14e74cf3ad2b5e8",
+                      "url": "https://api.lunarygames.com/fun/forge"
                     }
-                  ]
+                  },
+                  {
+                    "id": "net.minecraftforge:fmlcore:1.20.1-47.3.6",
+                    "name": "Minecraft Forge (fmlcore)",
+                    "type": "Library",
+                    "classpath": true,
+                    "artifact": {
+                      "size": 118687,
+                      "MD5": "bac94c804729e0952c84a2e863ad2269",
+                      "url": "https://github.com/Zooto199/Luscious-Lunary-Furry/raw/main/app/assets/fileclient/options/fmlcore-1.20.1-47.3.6.jar"
+                    },
+                    "subModules": []
+                  },
+                  {
+                    "id": "net.minecraftforge:javafmllanguage:1.20.1-47.3.6",
+                    "name": "Minecraft Forge (javafmllanguage)",
+                    "type": "Library",
+                    "classpath": true,
+                    "artifact": {
+                      "size": 16517,
+                      "MD5": "3b25d656c3a0fb057ed308a33ce43c29",
+                      "url": "https://github.com/Zooto199/Luscious-Lunary-Furry/raw/main/app/assets/fileclient/options/javafmllanguage-1.20.1-47.3.6.jar"
+                    },
+                    "subModules": []
+                  },
+                  {
+                    "id": "net.minecraftforge:mclanguage:1.20.1-47.3.6",
+                    "name": "Minecraft Forge (mclanguage)",
+                    "type": "Library",
+                    "classpath": true,
+                    "artifact": {
+                      "size": 5000,
+                      "MD5": "d0eb5fff9d92efcb43b8d708298cc483",
+                      "url": "https://github.com/Zooto199/Luscious-Lunary-Furry/raw/main/app/assets/fileclient/options/mclanguage-1.20.1-47.3.6.jar"
+                    },
+                    "subModules": []
+                  },
+                  {
+                    "id": "net.minecraftforge:forge:1.20.1-47.3.6:universal",
+                    "name": "Minecraft Forge (universal jar)",
+                    "type": "Library",
+                    "classpath": false,
+                    "artifact": {
+                      "size": 2753794,
+                      "MD5": "5dd29a134bd8f6135417bacb5e36408e",
+                      "url": "https://github.com/Zooto199/Luscious-Lunary-Furry/raw/main/app/assets/fileclient/options/forge-1.20.1-47.3.6-universal.jar"
+                    },
+                    "subModules": []
+                  },
+                  {
+                    "id": "net.minecraftforge:forge:1.20.1-47.3.6:client",
+                    "name": "Minecraft Forge (client jar)",
+                    "type": "Library",
+                    "classpath": false,
+                    "artifact": {
+                      "size": 4793846,
+                      "MD5": "55f309ca113761208206ce095c221a29",
+                      "url": "https://github.com/Zooto199/Luscious-Lunary-Furry/raw/main/app/assets/fileclient/options/forge-1.20.1-47.3.6-client.jar"
+                    },
+                    "subModules": []
+                  },
+                  {
+                    "id": "net.minecraft:client:1.20.1-20230612.114412:srg",
+                    "name": "Minecraft Forge (client srg)",
+                    "type": "Library",
+                    "classpath": false,
+                    "artifact": {
+                      "size": 18842082,
+                      "MD5": "d20dc7660df3488916d1cf24b61e08fb",
+                      "url": "https://github.com/Zooto199/Luscious-Lunary-Furry/raw/main/app/assets/fileclient/options/client-1.20.1-20230612.114412-srg.jar"
+                    },
+                    "subModules": []
+                  },
+                  {
+                    "id": "net.minecraft:client:1.20.1-20230612.114412:slim",
+                    "name": "Minecraft Forge (client slim)",
+                    "type": "Library",
+                    "classpath": false,
+                    "artifact": {
+                      "size": 12592249,
+                      "MD5": "6fbeb6a4a0dc55cb90e9334885918053",
+                      "url": "https://github.com/Zooto199/Luscious-Lunary-Furry/raw/main/app/assets/fileclient/options/client-1.20.1-20230612.114412-slim.jar"
+                    },
+                    "subModules": []
+                  },
+                  {
+                    "id": "net.minecraft:client:1.20.1-20230612.114412:extra",
+                    "name": "Minecraft Forge (client extra)",
+                    "type": "Library",
+                    "classpath": false,
+                    "artifact": {
+                      "size": 10436626,
+                      "MD5": "f4f8be138812304b01638fbf5c6ff81a",
+                      "url": "https://github.com/Zooto199/Luscious-Lunary-Furry/raw/main/app/assets/fileclient/options/client-1.20.1-20230612.114412-extra.jar"
+                    },
+                    "subModules": []
+                  },
+                  {
+                    "id": "cpw.mods:securejarhandler:2.1.10",
+                    "name": "Minecraft Forge (securejarhandler)",
+                    "type": "Library",
+                    "artifact": {
+                      "size": 88749,
+                      "MD5": "8a4e7e2770d7147d7551d1f3ad835baa",
+                      "url": "https://github.com/Zooto199/Luscious-Lunary-Furry/raw/main/app/assets/fileclient/options/securejarhandler-2.1.10.jar"
+                    }
+                  },
+                  {
+                    "id": "org.ow2.asm:asm:9.7",
+                    "name": "Minecraft Forge (asm)",
+                    "type": "Library",
+                    "artifact": {
+                      "size": 125428,
+                      "MD5": "29721ee4b5eacf0a34b204c345c8bc69",
+                      "url": "https://github.com/Zooto199/Luscious-Lunary-Furry/raw/main/app/assets/fileclient/options/asm-9.7.jar"
+                    }
+                  },
+                  {
+                    "id": "org.ow2.asm:asm-commons:9.7",
+                    "name": "Minecraft Forge (asm-commons)",
+                    "type": "Library",
+                    "artifact": {
+                      "size": 73426,
+                      "MD5": "7d1fce986192f71722b19754e4cb9e61",
+                      "url": "https://github.com/Zooto199/Luscious-Lunary-Furry/raw/main/app/assets/fileclient/options/asm-commons-9.7.jar"
+                    }
+                  },
+                  {
+                    "id": "org.ow2.asm:asm-tree:9.7",
+                    "name": "Minecraft Forge (asm-tree)",
+                    "type": "Library",
+                    "artifact": {
+                      "size": 51934,
+                      "MD5": "44755681b7d6fa7143afbb438e55c20c",
+                      "url": "https://github.com/Zooto199/Luscious-Lunary-Furry/raw/main/app/assets/fileclient/options/asm-tree-9.7.jar"
+                    }
+                  },
+                  {
+                    "id": "org.ow2.asm:asm-util:9.7",
+                    "name": "Minecraft Forge (asm-util)",
+                    "type": "Library",
+                    "artifact": {
+                      "size": 93784,
+                      "MD5": "ad0016249fb68bb9196babefd47b80dc",
+                      "url": "https://github.com/Zooto199/Luscious-Lunary-Furry/raw/main/app/assets/fileclient/options/asm-util-9.7.jar"
+                    }
+                  },
+                  {
+                    "id": "org.ow2.asm:asm-analysis:9.7",
+                    "name": "Minecraft Forge (asm-analysis)",
+                    "type": "Library",
+                    "artifact": {
+                      "size": 34776,
+                      "MD5": "4df0adafc78ebba404d4037987d36b61",
+                      "url": "https://github.com/Zooto199/Luscious-Lunary-Furry/raw/main/app/assets/fileclient/options/asm-analysis-9.7.jar"
+                    }
+                  },
+                  {
+                    "id": "net.minecraftforge:accesstransformers:8.0.4",
+                    "name": "Minecraft Forge (accesstransformers)",
+                    "type": "Library",
+                    "artifact": {
+                      "size": 77756,
+                      "MD5": "f0d3533f9437ba4428eaee9f28f7ecd9",
+                      "url": "https://github.com/Zooto199/Luscious-Lunary-Furry/raw/main/app/assets/fileclient/options/accesstransformers-8.0.4.jar"
+                    }
+                  },
+                  {
+                    "id": "org.antlr:antlr4-runtime:4.9.1",
+                    "name": "Minecraft Forge (antlr4-runtime)",
+                    "type": "Library",
+                    "artifact": {
+                      "size": 337868,
+                      "MD5": "0dcc4b860d5d8d2852ab94d58c56ca2d",
+                      "url": "https://github.com/Zooto199/Luscious-Lunary-Furry/raw/main/app/assets/fileclient/options/antlr4-runtime-4.9.1.jar"
+                    }
+                  },
+                  {
+                    "id": "net.minecraftforge:eventbus:6.0.5",
+                    "name": "Minecraft Forge (eventbus)",
+                    "type": "Library",
+                    "artifact": {
+                      "size": 53985,
+                      "MD5": "7c93693a70962a1c1893e3c058dca5cf",
+                      "url": "https://github.com/Zooto199/Luscious-Lunary-Furry/raw/main/app/assets/fileclient/options/eventbus-6.0.5.jar"
+                    }
+                  },
+                  {
+                    "id": "net.minecraftforge:forgespi:7.0.1",
+                    "name": "Minecraft Forge (forgespi)",
+                    "type": "Library",
+                    "artifact": {
+                      "size": 29831,
+                      "MD5": "b1bf9c45a33a749ed58b15d679925243",
+                      "url": "https://github.com/Zooto199/Luscious-Lunary-Furry/raw/main/app/assets/fileclient/options/forgespi-7.0.1.jar"
+                    }
+                  },
+                  {
+                    "id": "net.minecraftforge:coremods:5.1.6",
+                    "name": "Minecraft Forge (coremods)",
+                    "type": "Library",
+                    "artifact": {
+                      "size": 24124,
+                      "MD5": "8c590051c5d65e098ca7c2e3ddf803a8",
+                      "url": "https://github.com/Zooto199/Luscious-Lunary-Furry/raw/main/app/assets/fileclient/options/coremods-5.1.6.jar"
+                    }
+                  },
+                  {
+                    "id": "cpw.mods:modlauncher:10.0.9",
+                    "name": "Minecraft Forge (modlauncher)",
+                    "type": "Library",
+                    "artifact": {
+                      "size": 130343,
+                      "MD5": "3e171edcc29e762d2ecafffabb9e9341",
+                      "url": "https://github.com/Zooto199/Luscious-Lunary-Furry/raw/main/app/assets/fileclient/options/modlauncher-10.0.9.jar"
+                    }
+                  },
+                  {
+                    "id": "net.minecraftforge:unsafe:0.2.0",
+                    "name": "Minecraft Forge (unsafe)",
+                    "type": "Library",
+                    "artifact": {
+                      "size": 2834,
+                      "MD5": "2d1016ebe4c1a63dd50a59d26bd12db1",
+                      "url": "https://github.com/Zooto199/Luscious-Lunary-Furry/raw/main/app/assets/fileclient/options/unsafe-0.2.0.jar"
+                    }
+                  },
+                  {
+                    "id": "net.minecraftforge:mergetool:1.1.5:api",
+                    "name": "Minecraft Forge (mergetool)",
+                    "type": "Library",
+                    "artifact": {
+                      "size": 2572,
+                      "MD5": "8df9c5bf87d004ddb884eca99bc2a4b1",
+                      "url": "https://github.com/Zooto199/Luscious-Lunary-Furry/raw/main/app/assets/fileclient/options/mergetool-1.1.5-api.jar"
+                    }
+                  },
+                  {
+                    "id": "com.electronwill.night-config:core:3.6.4",
+                    "name": "Minecraft Forge (core)",
+                    "type": "Library",
+                    "artifact": {
+                      "size": 199834,
+                      "MD5": "d83ab07267e402131fb93d899a57f5cd",
+                      "url": "https://github.com/Zooto199/Luscious-Lunary-Furry/raw/main/app/assets/fileclient/options/core-3.6.4.jar"
+                    }
+                  },
+                  {
+                    "id": "com.electronwill.night-config:toml:3.6.4",
+                    "name": "Minecraft Forge (toml)",
+                    "type": "Library",
+                    "artifact": {
+                      "size": 31816,
+                      "MD5": "bc95d0709fff2164b01fd09fbc988be8",
+                      "url": "https://github.com/Zooto199/Luscious-Lunary-Furry/raw/main/app/assets/fileclient/options/toml-3.6.4.jar"
+                    }
+                  },
+                  {
+                    "id": "org.apache.maven:maven-artifact:3.8.5",
+                    "name": "Minecraft Forge (maven-artifact)",
+                    "type": "Library",
+                    "artifact": {
+                      "size": 58077,
+                      "MD5": "ce473b0d9fbfd10fe147f03fe8707d67",
+                      "url": "https://github.com/Zooto199/Luscious-Lunary-Furry/raw/main/app/assets/fileclient/options/maven-artifact-3.8.5.jar"
+                    }
+                  },
+                  {
+                    "id": "net.jodah:typetools:0.6.3",
+                    "name": "Minecraft Forge (typetools)",
+                    "type": "Library",
+                    "artifact": {
+                      "size": 18281,
+                      "MD5": "ee4596e1413cc1a5e080c971d6064753",
+                      "url": "https://github.com/Zooto199/Luscious-Lunary-Furry/raw/main/app/assets/fileclient/options/typetools-0.6.3.jar"
+                    }
+                  },
+                  {
+                    "id": "net.minecrell:terminalconsoleappender:1.2.0",
+                    "name": "Minecraft Forge (terminalconsoleappender)",
+                    "type": "Library",
+                    "artifact": {
+                      "size": 15977,
+                      "MD5": "679363fa893293791e55a21f81342f87",
+                      "url": "https://github.com/Zooto199/Luscious-Lunary-Furry/raw/main/app/assets/fileclient/options/terminalconsoleappender-1.2.0.jar"
+                    }
+                  },
+                  {
+                    "id": "org.jline:jline-reader:3.12.1",
+                    "name": "Minecraft Forge (jline-reader)",
+                    "type": "Library",
+                    "artifact": {
+                      "size": 150765,
+                      "MD5": "a2e7b012cd9802f83321187409174a94",
+                      "url": "https://github.com/Zooto199/Luscious-Lunary-Furry/raw/main/app/assets/fileclient/options/jline-reader-3.12.1.jar"
+                    }
+                  },
+                  {
+                    "id": "org.jline:jline-terminal:3.12.1",
+                    "name": "Minecraft Forge (jline-terminal)",
+                    "type": "Library",
+                    "artifact": {
+                      "size": 211712,
+                      "MD5": "3c52be5ab5e3847be6e62269de924cb0",
+                      "url": "https://github.com/Zooto199/Luscious-Lunary-Furry/raw/main/app/assets/fileclient/options/jline-terminal-3.12.1.jar"
+                    }
+                  },
+                  {
+                    "id": "org.spongepowered:mixin:0.8.5",
+                    "name": "Minecraft Forge (mixin)",
+                    "type": "Library",
+                    "artifact": {
+                      "size": 1089277,
+                      "MD5": "19b3a2ae9e445a6e626fd7d1648cfcb8",
+                      "url": "https://github.com/Zooto199/Luscious-Lunary-Furry/raw/main/app/assets/fileclient/options/mixin-0.8.5.jar"
+                    }
+                  },
+                  {
+                    "id": "org.openjdk.nashorn:nashorn-core:15.3",
+                    "name": "Minecraft Forge (nashorn-core)",
+                    "type": "Library",
+                    "artifact": {
+                      "size": 2167288,
+                      "MD5": "91e98c20afa1090c344229ce28b4c53f",
+                      "url": "https://github.com/Zooto199/Luscious-Lunary-Furry/raw/main/app/assets/fileclient/options/nashorn-core-15.3.jar"
+                    }
+                  },
+                  {
+                    "id": "net.minecraftforge:JarJarSelector:0.3.19",
+                    "name": "Minecraft Forge (JarJarSelector)",
+                    "type": "Library",
+                    "artifact": {
+                      "size": 17374,
+                      "MD5": "2bb6cbe0e6c6fbcd8f92d2e6b1ea678e",
+                      "url": "https://github.com/Zooto199/Luscious-Lunary-Furry/raw/main/app/assets/fileclient/options/JarJarSelector-0.3.19.jar"
+                    }
+                  },
+                  {
+                    "id": "net.minecraftforge:JarJarMetadata:0.3.19",
+                    "name": "Minecraft Forge (JarJarMetadata)",
+                    "type": "Library",
+                    "artifact": {
+                      "size": 15895,
+                      "MD5": "9633546d299d4282ca68d10582be1c8f",
+                      "url": "https://github.com/Zooto199/Luscious-Lunary-Furry/raw/main/app/assets/fileclient/options/JarJarMetadata-0.3.19.jar"
+                    }
+                  },
+                  {
+                    "id": "cpw.mods:bootstraplauncher:1.1.2",
+                    "name": "Minecraft Forge (bootstraplauncher)",
+                    "type": "Library",
+                    "artifact": {
+                      "size": 8284,
+                      "MD5": "48f5255aa337344c467c0150d347813d",
+                      "url": "https://github.com/Zooto199/Luscious-Lunary-Furry/raw/main/app/assets/fileclient/options/bootstraplauncher-1.1.2.jar"
+                    }
+                  },
+                  {
+                    "id": "net.minecraftforge:JarJarFileSystems:0.3.19",
+                    "name": "Minecraft Forge (JarJarFileSystems)",
+                    "type": "Library",
+                    "artifact": {
+                      "size": 32195,
+                      "MD5": "c2be1a88b63eb1b58b00ab6e498cd97d",
+                      "url": "https://github.com/Zooto199/Luscious-Lunary-Furry/raw/main/app/assets/fileclient/options/JarJarFileSystems-0.3.19.jar"
+                    }
+                  },
+                  {
+                      "id": "servers.dat",
+                      "name": "servers.dat",
+                      "type": "File",
+                      "artifact": {
+                        "size": 16103,
+                        "url": "https://raw.githubusercontent.com/Zooto199/Luscious-Lunary-Furry/main/app/assets/fileclient/options/servers.dat",
+                        "MD5": "71d99e229d7d2b8d2a6423e46832a4b8",
+                        "path": "servers.dat"
+                      }
+                  },
+                  {
+                      "id": "options.txt",
+                      "name": "options.txt",
+                      "type": "File",
+                      "artifact": {
+                        "size": 3378,
+                        "url": "https://raw.githubusercontent.com/Zooto199/Luscious-Lunary-Furry/main/app/assets/fileclient/options/options.txt",
+                        "path": "options.txt"
+                      }
+                  },
+                  {
+                      "id": "Faithful 64x - Beta 9.zip",
+                      "name": "Faithful 64x - Beta 9.zip",
+                      "type": "File",
+                      "artifact": {
+                        "size": 9608212,
+                        "url": "https://www.curseforge.com/api/v1/mods/419139/files/4626083/download",
+                        "MD5": "eb3c794aafe44c7ea7d3407a10553bd4",
+                        "path": "resourcepacks/Faithful 64x - Beta 9.zip"
+                      }
+                  },
+                  {
+                    "id": "net.minecraftforge:fmlloader:1.20-46.0.2",
+                    "name": "Minecraft Forge (fmlloader)",
+                    "type": "Library",
+                    "artifact": {
+                      "size": 264783,
+                      "MD5": "99825c1cc845cf542284efa122e1b96e",
+                      "url": "https://github.com/Zooto199/Luscious-Lunary-Furry/raw/main/app/assets/fileclient/options/fmlloader-1.20.1-47.3.6.jar"
+                    }
+                  }
+                ]
+              },
+              {
+                "id": "ai_improvements:ai_improvements:1.20-0.5.2@jar",
+                "name": "AI Improvements",
+                "type": "ForgeMod",
+                "artifact": {
+                    "size": 29553,
+                    "url": "https://github.com/Zooto199/Luscious-Lunary-Furry/raw/main/app/assets/fileclient/mod/AI-Improvements-1.20-0.5.2.jar",
+                    "MD5": "placeholder"
                 }
-              ]
-            }
-        ]
-    }
+            },
+            {
+                "id": "additionalenchantedminer:additionalenchantedminer:1.20.1-1201.0.8-SNAPSHOT@jar",
+                "name": "Additional Enchanted Miner",
+                "type": "ForgeMod",
+                "artifact": {
+                    "size": 995758,
+                    "url": "https://github.com/Zooto199/Luscious-Lunary-Furry/raw/main/app/assets/fileclient/mod/AdditionalEnchantedMiner-1.20.1-1201.0.8-SNAPSHOT(1).jar",
+                    "MD5": "placeholder"
+                }
+            },
+            {
+                "id": "betteranimations:betteranimations:v8.0.0-1.20.1@jar",
+                "name": "Better Animations Collection",
+                "type": "ForgeMod",
+                "artifact": {
+                    "size": 198652,
+                    "url": "https://github.com/Zooto199/Luscious-Lunary-Furry/raw/main/app/assets/fileclient/mod/BetterAnimationsCollection-v8.0.0-1.20.1-Forge.jar",
+                    "MD5": "placeholder"
+                }
+            },
+            {
+                "id": "biomesoplenty:biomesoplenty:1.20.1-18.0.0.598@jar",
+                "name": "Biomes O' Plenty",
+                "type": "ForgeMod",
+                "artifact": {
+                    "size": 21800751,
+                    "url": "https://github.com/Zooto199/Luscious-Lunary-Furry/raw/main/app/assets/fileclient/mod/BiomesOPlenty-1.20.1-18.0.0.598.jar",
+                    "MD5": "placeholder"
+                }
+            },
+            {
+                "id": "coldsweat:coldsweat:2.3.3@jar",
+                "name": "ColdSweat",
+                "type": "ForgeMod",
+                "artifact": {
+                    "size": 8427815,
+                    "url": "https://github.com/Zooto199/Luscious-Lunary-Furry/raw/main/app/assets/fileclient/mod/ColdSweat-2.3.3.jar",
+                    "MD5": "placeholder"
+                }
+            },
+            {
+                "id": "creativecore:creativecore:v2.11.37_mc1.20.1@jar",
+                "name": "CreativeCore",
+                "type": "ForgeMod",
+                "artifact": {
+                    "size": 1115420,
+                    "url": "https://github.com/Zooto199/Luscious-Lunary-Furry/raw/main/app/assets/fileclient/mod/CreativeCore_FORGE_v2.11.37_mc1.20.1.jar",
+                    "MD5": "placeholder"
+                }
+            },
+            {
+                "id": "cucumber:cucumber:1.20.1-7.0.11@jar",
+                "name": "Cucumber",
+                "type": "ForgeMod",
+                "artifact": {
+                    "size": 269283,
+                    "url": "https://github.com/Zooto199/Luscious-Lunary-Furry/raw/main/app/assets/fileclient/mod/Cucumber-1.20.1-7.0.11.jar",
+                    "MD5": "placeholder"
+                }
+            },
+            {
+                "id": "doggytalents:doggytalents:1.20.1-1.18.29@jar",
+                "name": "Doggy Talents",
+                "type": "ForgeMod",
+                "artifact": {
+                    "size": 11449497,
+                    "url": "https://github.com/Zooto199/Luscious-Lunary-Furry/raw/main/app/assets/fileclient/mod/DoggyTalentsNext-1.20.1-1.18.29.jar",
+                    "MD5": "placeholder"
+                }
+            },
+            {
+                "id": "enhancedvisuals:enhancedvisuals:v1.8.1_mc1.20.1@jar",
+                "name": "Enhanced Visuals",
+                "type": "ForgeMod",
+                "artifact": {
+                    "size": 4726281,
+                    "url": "https://github.com/Zooto199/Luscious-Lunary-Furry/raw/main/app/assets/fileclient/mod/EnhancedVisuals_FORGE_v1.8.1_mc1.20.1.jar",
+                    "MD5": "placeholder"
+                }
+            },
+            {
+                "id": "epic_dungeons:epic_dungeons:0.1.04@jar",
+                "name": "Epic Dungeons",
+                "type": "ForgeMod",
+                "artifact": {
+                    "size": 5144310,
+                    "url": "https://github.com/Zooto199/Luscious-Lunary-Furry/raw/main/app/assets/fileclient/mod/Epic Dungeons-0.1.04-Forge-1.19-1.20.1.jar",
+                    "MD5": "placeholder"
+                }
+            },
+            {
+                "id": "fallingtree:fallingtree:1.20.1-4.3.4@jar",
+                "name": "Falling Tree",
+                "type": "ForgeMod",
+                "artifact": {
+                    "size": 420179,
+                    "url": "https://github.com/Zooto199/Luscious-Lunary-Furry/raw/main/app/assets/fileclient/mod/FallingTree-1.20.1-4.3.4.jar",
+                    "MD5": "placeholder"
+                }
+            },
+            {
+                "id": "inventory_profiles:inventory_profiles:1.20.1@jar",
+                "name": "Inventory Profiles",
+                "type": "ForgeMod",
+                "artifact": {
+                    "size": 1362759,
+                    "url": "https://github.com/Zooto199/Luscious-Lunary-Furry/raw/main/app/assets/fileclient/mod/Inventory-Profiles-Mod-Forge-1.20.1.jar",
+                    "MD5": "placeholder"
+                }
+            },
+            {
+                "id": "ironjetpacks:ironjetpacks:1.20.1-7.0.6@jar",
+                "name": "Iron Jetpacks",
+                "type": "ForgeMod",
+                "artifact": {
+                    "size": 158052,
+                    "url": "https://github.com/Zooto199/Luscious-Lunary-Furry/raw/main/app/assets/fileclient/mod/IronJetpacks-1.20.1-7.0.6.jar",
+                    "MD5": "placeholder"
+                }
+            },
+            {
+                "id": "littleframes:littleframes:1.20.1@jar",
+                "name": "Little Frames",
+                "type": "ForgeMod",
+                "artifact": {
+                    "size": 71835,
+                    "url": "https://github.com/Zooto199/Luscious-Lunary-Furry/raw/main/app/assets/fileclient/mod/LittleFrames_FORGE_v1.3.9_mc1.20.1.jar",
+                    "MD5": "placeholder"
+                }
+            },
+            {
+                "id": "neat:neat:1.20-35@jar",
+                "name": "Neat",
+                "type": "ForgeMod",
+                "artifact": {
+                    "size": 26247,
+                    "url": "https://github.com/Zooto199/Luscious-Lunary-Furry/raw/main/app/assets/fileclient/mod/Neat-1.20-35-FORGE.jar",
+                    "MD5": "placeholder"
+                }
+            },
+            {
+                "id": "puzzleslib:puzzleslib:v8.1.21-1.20.1@jar",
+                "name": "Puzzles Lib",
+                "type": "ForgeMod",
+                "artifact": {
+                    "size": 1000977,
+                    "url": "https://github.com/Zooto199/Luscious-Lunary-Furry/raw/main/app/assets/fileclient/mod/PuzzlesLib-v8.1.21-1.20.1-Forge.jar",
+                    "MD5": "placeholder"
+                }
+            },
+            {
+                "id": "scalablecatsforce:scalablecatsforce:3.3.0@jar",
+                "name": "Scalable Cat's Force",
+                "type": "ForgeMod",
+                "artifact": {
+                    "size": 15799542,
+                    "url": "https://github.com/Zooto199/Luscious-Lunary-Furry/raw/main/app/assets/fileclient/mod/ScalableCatsForce-3.3.0-build-0-with-library.jar",
+                    "MD5": "placeholder"
+                }
+            },
+            {
+                "id": "sereneseasons:sereneseasons:1.20.1-9.0.0.46@jar",
+                "name": "Serene Seasons",
+                "type": "ForgeMod",
+                "artifact": {
+                    "size": 148149,
+                    "url": "https://github.com/Zooto199/Luscious-Lunary-Furry/raw/main/app/assets/fileclient/mod/SereneSeasons-1.20.1-9.0.0.46.jar",
+                    "MD5": "placeholder"
+                }
+            },
+            {
+                "id": "smartbrainlib:smartbrainlib:1.20.1-1.15@jar",
+                "name": "Smart Brain Lib",
+                "type": "ForgeMod",
+                "artifact": {
+                    "size": 362338,
+                    "url": "https://github.com/Zooto199/Luscious-Lunary-Furry/raw/main/app/assets/fileclient/mod/SmartBrainLib-forge-1.20.1-1.15.jar",
+                    "MD5": "placeholder"
+                }
+            },
+            {
+                "id": "steam_rails:steam_rails:1.6.4@jar",
+                "name": "Steam Rails",
+                "type": "ForgeMod",
+                "artifact": {
+                    "size": 9096035,
+                    "url": "https://github.com/Zooto199/Luscious-Lunary-Furry/raw/main/app/assets/fileclient/mod/Steam_Rails-1.6.4+forge-mc1.20.1.jar",
+                    "MD5": "placeholder"
+                }
+            },
+            {
+                "id": "storagedrawers:storagedrawers:1.20.1-12.6.0@jar",
+                "name": "Storage Drawers",
+                "type": "ForgeMod",
+                "artifact": {
+                    "size": 708233,
+                    "url": "https://github.com/Zooto199/Luscious-Lunary-Furry/raw/main/app/assets/fileclient/mod/StorageDrawers-1.20.1-12.6.0.jar",
+                    "MD5": "placeholder"
+                }
+            },
+            {
+                "id": "terrablender:terrablender:1.20.1-3.0.1.7@jar",
+                "name": "TerraBlender",
+                "type": "ForgeMod",
+                "artifact": {
+                    "size": 107534,
+                    "url": "https://github.com/Zooto199/Luscious-Lunary-Furry/raw/main/app/assets/fileclient/mod/TerraBlender-forge-1.20.1-3.0.1.7.jar",
+                    "MD5": "placeholder"
+                }
+            },
+            {
+                "id": "terralith:terralith:1.20_v2.5.1@jar",
+                "name": "Terralith",
+                "type": "ForgeMod",
+                "artifact": {
+                    "size": 3197597,
+                    "url": "https://github.com/Zooto199/Luscious-Lunary-Furry/raw/main/app/assets/fileclient/mod/Terralith_1.20_v2.5.1.jar",
+                    "MD5": "placeholder"
+                }
+            },
+            {
+                "id": "the_one_probe:the_one_probe:1.20.1@jar",
+                "name": "The One Probe",
+                "type": "ForgeMod",
+                "artifact": {
+                    "size": 331208,
+                    "url": "https://github.com/Zooto199/Luscious-Lunary-Furry/raw/main/app/assets/fileclient/mod/The-One-Probe-Mod-Forge-1.20.1.jar",
+                    "MD5": "placeholder"
+                }
+            },
+            {
+                "id": "xaeros_minimap:xaeros_minimap:24.3.0@jar",
+                "name": "Xaero's Minimap",
+                "type": "ForgeMod",
+                "artifact": {
+                    "size": 1479125,
+                    "url": "https://github.com/Zooto199/Luscious-Lunary-Furry/raw/main/app/assets/fileclient/mod/Xaeros_Minimap_24.3.0_Forge_1.20.jar",
+                    "MD5": "placeholder"
+                }
+            },
+            {
+                "id": "ad_astra:ad_astra:1.20.1-1.15.18@jar",
+                "name": "Ad Astra",
+                "type": "ForgeMod",
+                "artifact": {
+                    "size": 7461158,
+                    "url": "https://github.com/Zooto199/Luscious-Lunary-Furry/raw/main/app/assets/fileclient/mod/ad_astra-forge-1.20.1-1.15.18.jar",
+                    "MD5": "placeholder"
+                }
+            },
+            {
+                "id": "ae2wtlib:ae2wtlib:15.2.3@jar",
+                "name": "AE2 Wireless Terminal Library",
+                "type": "ForgeMod",
+                "artifact": {
+                    "size": 213482,
+                    "url": "https://github.com/Zooto199/Luscious-Lunary-Furry/raw/main/app/assets/fileclient/mod/ae2wtlib-15.2.3-forge.jar",
+                    "MD5": "placeholder"
+                }
+            },
+            {
+                "id": "aether:aether:1.20.1-1.4.2@jar",
+                "name": "Aether",
+                "type": "ForgeMod",
+                "artifact": {
+                    "size": 23454164,
+                    "url": "https://github.com/Zooto199/Luscious-Lunary-Furry/raw/main/app/assets/fileclient/mod/aether-1.20.1-1.4.2-neoforge.jar",
+                    "MD5": "placeholder"
+                }
+            },
+            {
+                "id": "alexsmobs:alexsmobs:1.22.8@jar",
+                "name": "Alex's Mobs",
+                "type": "ForgeMod",
+                "artifact": {
+                    "size": 26055355,
+                    "url": "https://github.com/Zooto199/Luscious-Lunary-Furry/raw/main/app/assets/fileclient/mod/alexsmobs-1.22.8.jar",
+                    "MD5": "placeholder"
+                }
+            },
+            {
+                "id": "appliedenergistics2:appliedenergistics2:15.2.13@jar",
+                "name": "Applied Energistics 2",
+                "type": "ForgeMod",
+                "artifact": {
+                    "size": 9739699,
+                    "url": "https://github.com/Zooto199/Luscious-Lunary-Furry/raw/main/app/assets/fileclient/mod/appliedenergistics2-forge-15.2.13.jar",
+                    "MD5": "placeholder"
+                }
+            },
+            {
+                "id": "architectury:architectury:9.2.14@jar",
+                "name": "Architectury",
+                "type": "ForgeMod",
+                "artifact": {
+                    "size": 580602,
+                    "url": "https://github.com/Zooto199/Luscious-Lunary-Furry/raw/main/app/assets/fileclient/mod/architectury-9.2.14-forge.jar",
+                    "MD5": "placeholder"
+                }
+            },
+            {
+                "id": "bettervillage:bettervillage:1.20.1-3.2.0@jar",
+                "name": "Better Village",
+                "type": "ForgeMod",
+                "artifact": {
+                    "size": 2019497,
+                    "url": "https://github.com/Zooto199/Luscious-Lunary-Furry/raw/main/app/assets/fileclient/mod/bettervillage-forge-1.20.1-3.2.0.jar",
+                    "MD5": "placeholder"
+                }
+            },
+            {
+                "id": "botarium:botarium:1.20.1-2.3.4@jar",
+                "name": "Botarium",
+                "type": "ForgeMod",
+                "artifact": {
+                    "size": 157633,
+                    "url": "https://github.com/Zooto199/Luscious-Lunary-Furry/raw/main/app/assets/fileclient/mod/botarium-forge-1.20.1-2.3.4.jar",
+                    "MD5": "placeholder"
+                }
+            },
+            {
+                "id": "butcher:butcher:2.5.4@jar",
+                "name": "Butcher",
+                "type": "ForgeMod",
+                "artifact": {
+                    "size": 15238716,
+                    "url": "https://github.com/Zooto199/Luscious-Lunary-Furry/raw/main/app/assets/fileclient/mod/butcher-2.5.4-forge-1.20.1.jar",
+                    "MD5": "placeholder"
+                }
+            },
+            {
+                "id": "cfm:cfm:1.20.1-7.0.0-pre36@jar",
+                "name": "MrCrayfish's Furniture Mod",
+                "type": "ForgeMod",
+                "artifact": {
+                    "size": 2613393,
+                    "url": "https://github.com/Zooto199/Luscious-Lunary-Furry/raw/main/app/assets/fileclient/mod/cfm-forge-1.20.1-7.0.0-pre36.jar",
+                    "MD5": "placeholder"
+                }
+            },
+            {
+                "id": "citadel:citadel:2.6.0@jar",
+                "name": "Citadel",
+                "type": "ForgeMod",
+                "artifact": {
+                    "size": 3173174,
+                    "url": "https://github.com/Zooto199/Luscious-Lunary-Furry/raw/main/app/assets/fileclient/mod/citadel-2.6.0-1.20.1.jar",
+                    "MD5": "placeholder"
+                }
+            },
+            {
+                "id": "cloth_config:cloth_config:11.1.118@jar",
+                "name": "Cloth Config API",
+                "type": "ForgeMod",
+                "artifact": {
+                    "size": 1168391,
+                    "url": "https://github.com/Zooto199/Luscious-Lunary-Furry/raw/main/app/assets/fileclient/mod/cloth-config-11.1.118-forge.jar",
+                    "MD5": "placeholder"
+                }
+            },
+            {
+                "id": "coroutil:coroutil:1.20.1-1.3.7@jar",
+                "name": "CoroUtil",
+                "type": "ForgeMod",
+                "artifact": {
+                    "size": 64187,
+                    "url": "https://github.com/Zooto199/Luscious-Lunary-Furry/raw/main/app/assets/fileclient/mod/coroutil-forge-1.20.1-1.3.7.jar",
+                    "MD5": "placeholder"
+                }
+            },
+            {
+                "id": "create:create:1.20.1-0.5.1.f@jar",
+                "name": "Create",
+                "type": "ForgeMod",
+                "artifact": {
+                    "size": 14964127,
+                    "url": "https://github.com/Zooto199/Luscious-Lunary-Furry/raw/main/app/assets/fileclient/mod/create-1.20.1-0.5.1.f.jar",
+                    "MD5": "placeholder"
+                }
+            },
+            {
+                "id": "decorative_blocks:decorative_blocks:1.20.1-4.1.3@jar",
+                "name": "Decorative Blocks",
+                "type": "ForgeMod",
+                "artifact": {
+                    "size": 573928,
+                    "url": "https://github.com/Zooto199/Luscious-Lunary-Furry/raw/main/app/assets/fileclient/mod/decorative_blocks-forge-1.20.1-4.1.3.jar",
+                    "MD5": "placeholder"
+                }
+            },
+            {
+                "id": "geckolib:geckolib:1.20.1-4.4.7@jar",
+                "name": "GeckoLib",
+                "type": "ForgeMod",
+                "artifact": {
+                    "size": 991110,
+                    "url": "https://github.com/Zooto199/Luscious-Lunary-Furry/raw/main/app/assets/fileclient/mod/geckolib-forge-1.20.1-4.4.7.jar",
+                    "MD5": "placeholder"
+                }
+            },
+            {
+                "id": "guardvillagers:guardvillagers:1.20-1.6.0@jar",
+                "name": "Guard Villagers",
+                "type": "ForgeMod",
+                "artifact": {
+                    "size": 195686,
+                    "url": "https://github.com/Zooto199/Luscious-Lunary-Furry/raw/main/app/assets/fileclient/mod/guardvillagers-1.20-1.6.0.jar",
+                    "MD5": "placeholder"
+                }
+            },
+            {
+                "id": "jei:jei:1.20.1-15.12.3.55@jar",
+                "name": "Just Enough Items",
+                "type": "ForgeMod",
+                "artifact": {
+                    "size": 1342194,
+                    "url": "https://github.com/Zooto199/Luscious-Lunary-Furry/raw/main/app/assets/fileclient/mod/jei-1.20.1-forge-15.12.3.55.jar",
+                    "MD5": "placeholder"
+                }
+            },
+            {
+                "id": "kotlinforforge:kotlinforforge:4.3.0-all@jar",
+                "name": "Kotlin for Forge",
+                "type": "ForgeMod",
+                "artifact": {
+                    "size": 7513212,
+                    "url": "https://github.com/Zooto199/Luscious-Lunary-Furry/raw/main/app/assets/fileclient/mod/kotlinforforge-4.3.0-all.jar",
+                    "MD5": "placeholder"
+                }
+            },
+            {
+                "id": "liblibpn:liblibpn:1.20-4.0.2@jar",
+                "name": "LibLibPN",
+                "type": "ForgeMod",
+                "artifact": {
+                    "size": 693301,
+                    "url": "https://github.com/Zooto199/Luscious-Lunary-Furry/raw/main/app/assets/fileclient/mod/libIPN-forge-1.20-4.0.2.jar",
+                    "MD5": "placeholder"
+                }
+            },
+            {
+                "id": "libraryferret:libraryferret:1.20.1-4.0.0@jar",
+                "name": "LibraryFerret",
+                "type": "ForgeMod",
+                "artifact": {
+                    "size": 190536,
+                    "url": "https://github.com/Zooto199/Luscious-Lunary-Furry/raw/main/app/assets/fileclient/mod/libraryferret-forge-1.20.1-4.0.0.jar",
+                    "MD5": "placeholder"
+                }
+            },
+            {
+                "id": "lucent:lucent:1.20.1-1.5.5@jar",
+                "name": "Lucent",
+                "type": "ForgeMod",
+                "artifact": {
+                    "size": 225245,
+                    "url": "https://github.com/Zooto199/Luscious-Lunary-Furry/raw/main/app/assets/fileclient/mod/lucent-1.20.1-1.5.5.jar",
+                    "MD5": "placeholder"
+                }
+            },
+            {
+                "id": "midnight:midnight:1.20.1-0.6.3@jar",
+                "name": "Midnight",
+                "type": "ForgeMod",
+                "artifact": {
+                    "size": 26490017,
+                    "url": "https://github.com/Zooto199/Luscious-Lunary-Furry/raw/main/app/assets/fileclient/mod/midnight-1.20.1-0.6.3.jar",
+                    "MD5": "placeholder"
+                }
+            },
+            {
+                "id": "movingelevators:movingelevators:1.20.1-1.7@jar",
+                "name": "Moving Elevators",
+                "type": "ForgeMod",
+                "artifact": {
+                    "size": 324256,
+                    "url": "https://github.com/Zooto199/Luscious-Lunary-Furry/raw/main/app/assets/fileclient/mod/movingelevators-1.4.7-forge-mc1.20.1.jar",
+                    "MD5": "placeholder"
+                }
+            },
+            {
+                "id": "resourcefulconfig:resourcefulconfig:1.20.1-2.1.2@jar",
+                "name": "Resourceful Config",
+                "type": "ForgeMod",
+                "artifact": {
+                    "size": 136630,
+                    "url": "https://github.com/Zooto199/Luscious-Lunary-Furry/raw/main/app/assets/fileclient/mod/resourcefulconfig-forge-1.20.1-2.1.2.jar",
+                    "MD5": "placeholder"
+                }
+            },
+            {
+                "id": "resourcefullib:resourcefullib:1.20.1-2.1.29@jar",
+                "name": "Resourceful Lib",
+                "type": "ForgeMod",
+                "artifact": {
+                    "size": 432753,
+                    "url": "https://github.com/Zooto199/Luscious-Lunary-Furry/raw/main/app/assets/fileclient/mod/resourcefullib-forge-1.20.1-2.1.29.jar",
+                    "MD5": "placeholder"
+                }
+            },
+            {
+                "id": "rubidium:rubidium:mc1.20.1-0.7.1a@jar",
+                "name": "Rubidium",
+                "type": "ForgeMod",
+                "artifact": {
+                    "size": 715190,
+                    "url": "https://github.com/Zooto199/Luscious-Lunary-Furry/raw/main/app/assets/fileclient/mod/rubidium-mc1.20.1-0.7.1a.jar",
+                    "MD5": "placeholder"
+                }
+            },
+            {
+                "id": "sliceanddice:sliceanddice:3.2.1@jar",
+                "name": "Slice and Dice",
+                "type": "ForgeMod",
+                "artifact": {
+                    "size": 228307,
+                    "url": "https://github.com/Zooto199/Luscious-Lunary-Furry/raw/main/app/assets/fileclient/mod/sliceanddice-forge-3.2.1.jar",
+                    "MD5": "placeholder"
+                }
+            },
+            {
+                "id": "sound_physics:sound_physics:1.20.1-1.4.5@jar",
+                "name": "Sound Physics Remastered",
+                "type": "ForgeMod",
+                "artifact": {
+                    "size": 196564,
+                    "url": "https://github.com/Zooto199/Luscious-Lunary-Furry/raw/main/app/assets/fileclient/mod/sound-physics-remastered-forge-1.20.1-1.4.5.jar",
+                    "MD5": "placeholder"
+                }
+            },
+            {
+                "id": "supermartijn642configlib:supermartijn642configlib:1.1.7-forge-mc1.20@jar",
+                "name": "SuperMartijn642's Config Lib",
+                "type": "ForgeMod",
+                "artifact": {
+                    "size": 206490,
+                    "url": "https://github.com/Zooto199/Luscious-Lunary-Furry/raw/main/app/assets/fileclient/mod/supermartijn642configlib-1.1.7-forge-mc1.20.jar",
+                    "MD5": "placeholder"
+                }
+            },
+            {
+                "id": "supermartijn642corelib:supermartijn642corelib:1.1.17-forge-mc1.20.1@jar",
+                "name": "SuperMartijn642's Core Lib",
+                "type": "ForgeMod",
+                "artifact": {
+                    "size": 512069,
+                    "url": "https://github.com/Zooto199/Luscious-Lunary-Furry/raw/main/app/assets/fileclient/mod/supermartijn642corelib-1.1.17-forge-mc1.20.1.jar",
+                    "MD5": "placeholder"
+                }
+            },
+            {
+                "id": "travelersbackpack:travelersbackpack:1.20.1-9.1.15@jar",
+                "name": "Traveler's Backpack",
+                "type": "ForgeMod",
+                "artifact": {
+                    "size": 907455,
+                    "url": "https://github.com/Zooto199/Luscious-Lunary-Furry/raw/main/app/assets/fileclient/mod/travelersbackpack-forge-1.20.1-9.1.15.jar",
+                    "MD5": "placeholder"
+                }
+            },
+            {
+                "id": "watermedia:watermedia:2.0.69@jar",
+                "name": "WaterMedia",
+                "type": "ForgeMod",
+                "artifact": {
+                    "size": 27571910,
+                    "url": "https://github.com/Zooto199/Luscious-Lunary-Furry/raw/main/app/assets/fileclient/mod/watermedia-2.0.69.jar",
+                    "MD5": "placeholder"
+                }
+            },
+            {
+                "id": "weather2:weather2:1.20.1-2.8.3@jar",
+                "name": "Weather 2",
+                "type": "ForgeMod",
+                "artifact": {
+                    "size": 6852245,
+                    "url": "https://github.com/Zooto199/Luscious-Lunary-Furry/raw/main/app/assets/fileclient/mod/weather2-1.20.1-2.8.3.jar",
+                    "MD5": "placeholder"
+                }
+            },
+            {
+              "id": "mekanism:mekanism:1.20.1-10.4.9.61@jar",
+              "name": "Mekanism",
+              "type": "ForgeMod",
+              "artifact": {
+                  "size": 12554240,
+                  "url": "https://github.com/Zooto199/Luscious-Lunary-Furry/raw/main/app/assets/fileclient/mod/Mekanism-1.20.1-10.4.9.61.jar",
+                  "MD5": "placeholder"
+              }
+          },
+          {
+              "id": "orva_alarms:orva_alarms:4.0.0@jar",
+              "name": "Orva Alarms",
+              "type": "ForgeMod",
+              "artifact": {
+                  "size": 3609600,
+                  "url": "https://github.com/Zooto199/Luscious-Lunary-Furry/raw/main/app/assets/fileclient/mod/Orva%20Alarms%20V4.0.0%20-%201.20.1.jar",
+                  "MD5": "placeholder"
+              }
+          },
+          {
+              "id": "youdied:youdied:1.20-3.0.0.17@jar",
+              "name": "YouDied",
+              "type": "ForgeMod",
+              "artifact": {
+                  "size": 289792,
+                  "url": "https://github.com/Zooto199/Luscious-Lunary-Furry/raw/main/app/assets/fileclient/mod/YouDied-1.20-3.0.0.17-forge.jar",
+                  "MD5": "placeholder"
+              }
+          },
+          {
+              "id": "additional_lights:additional_lights:1.20.1-2.1.7@jar",
+              "name": "Additional Lights",
+              "type": "ForgeMod",
+              "artifact": {
+                  "size": 530432,
+                  "url": "https://github.com/Zooto199/Luscious-Lunary-Furry/raw/main/app/assets/fileclient/mod/additional_lights-1.20.1-2.1.7.jar",
+                  "MD5": "placeholder"
+              }
+          },
+          {
+              "id": "cant_sleep:cant_sleep:1.20.1-1.1.0.1@jar",
+              "name": "Can't Sleep, Clowns Will Eat Me",
+              "type": "ForgeMod",
+              "artifact": {
+                  "size": 11264,
+                  "url": "https://github.com/Zooto199/Luscious-Lunary-Furry/raw/main/app/assets/fileclient/mod/cant_sleep_clowns_will_eat_me-1.20.1-1.1.0.1.jar",
+                  "MD5": "placeholder"
+              }
+          },
+          {
+              "id": "cave_dweller:cave_dweller:1.20.1-1.6.4@jar",
+              "name": "Cave Dweller",
+              "type": "ForgeMod",
+              "artifact": {
+                  "size": 637952,
+                  "url": "https://github.com/Zooto199/Luscious-Lunary-Furry/raw/main/app/assets/fileclient/mod/cave_dweller-1.20.1-1.6.4.jar",
+                  "MD5": "placeholder"
+              }
+          },
+          {
+              "id": "twilightforest:twilightforest:1.20.1-4.3.2508@jar",
+              "name": "Twilight Forest",
+              "type": "ForgeMod",
+              "artifact": {
+                  "size": 23376896,
+                  "url": "https://github.com/Zooto199/Luscious-Lunary-Furry/raw/main/app/assets/fileclient/mod/twilightforest-1.20.1-4.3.2508-universal.jar",
+                  "MD5": "placeholder"
+              }
+          }
+            ]
+          }
+      ]
+  }

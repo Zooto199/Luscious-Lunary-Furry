@@ -54,18 +54,18 @@ Cette liste n'est pas exhaustive. Télécharge et installe le launcher pour déc
 
 ## 🚀 Téléchargements
 
-Télécharge la dernière version depuis [GitHub Releases](https://github.com/toncompte/Luscious-Lunary-Furry/releases).
+Télécharge la dernière version depuis [GitHub Releases](https://github.com/Zooto199/Luscious-Lunary-Furry/releases).
 
 #### Dernière Version Stable
 
-[![](https://img.shields.io/github/release/toncompte/Luscious-Lunary-Furry.svg?style=flat-square)](https://github.com/toncompte/Luscious-Lunary-Furry/releases/latest)
+[![](https://img.shields.io/github/release/Zooto199/Luscious-Lunary-Furry.svg?style=flat-square)](https://github.com/Zooto199/Luscious-Lunary-Furry/releases/latest)
 
 #### Dernière Pré-Version
-[![](https://img.shields.io/github/release/toncompte/Luscious-Lunary-Furry/all.svg?style=flat-square)](https://github.com/toncompte/Luscious-Lunary-Furry/releases)
+[![](https://img.shields.io/github/release/Zooto199/Luscious-Lunary-Furry/all.svg?style=flat-square)](https://github.com/Zooto199/Luscious-Lunary-Furry/releases)
 
 **Plateformes Supportées**
 
-Sélectionne l'installateur pour ton système dans l'onglet [Releases](https://github.com/toncompte/Luscious-Lunary-Furry/releases).
+Sélectionne l'installateur pour ton système dans l'onglet [Releases](https://github.com/Zooto199/Luscious-Lunary-Furry/releases).
 
 | Plateforme | Fichier |
 | ---------- | ------- |

@@ -10,11 +10,11 @@
 </p>
 
 <p align="center">
-    <a href="https://github.com/toncompte/Luscious-Lunary-Furry/actions">
-        <img src="https://img.shields.io/github/actions/workflow/status/toncompte/Luscious-Lunary-Furry/build.yml?branch=main&style=for-the-badge" alt="GitHub Actions">
+    <a href="https://github.com/Zooto199/Luscious-Lunary-Furry/actions">
+        <img src="https://img.shields.io/github/actions/workflow/status/Zooto199/Luscious-Lunary-Furry/build.yml?branch=main&style=for-the-badge" alt="GitHub Actions">
     </a>
-    <a href="https://github.com/toncompte/Luscious-Lunary-Furry/releases">
-        <img src="https://img.shields.io/github/downloads/toncompte/Luscious-Lunary-Furry/total.svg?style=for-the-badge" alt="Downloads">
+    <a href="https://github.com/Zooto199/Luscious-Lunary-Furry/releases">
+        <img src="https://img.shields.io/github/downloads/Zooto199/Luscious-Lunary-Furry/total.svg?style=for-the-badge" alt="Downloads">
     </a>
     <img src="https://forthebadge.com/images/badges/for-you.svg" height="28px" alt="For You">
 </p>

@@ -1052,7 +1052,7 @@
           "name": "Mekanism",
           "type": "ForgeMod",
           "artifact": {
-            "size": 12554240,
+            "size": 12553470,
             "url": "https://github.com/Zooto199/Luscious-Lunary-Furry/raw/main/app/assets/fileclient/mod/Mekanism-1.20.1-10.4.9.61.jar",
             "MD5": "placeholder"
           }
@@ -1062,7 +1062,7 @@
           "name": "Orva Alarms",
           "type": "ForgeMod",
           "artifact": {
-            "size": 3609600,
+            "size": 3609483,
             "url": "https://github.com/Zooto199/Luscious-Lunary-Furry/raw/main/app/assets/fileclient/mod/Orva%20Alarms%20V4.0.0%20-%201.20.1.jar",
             "MD5": "placeholder"
           }
@@ -1072,7 +1072,7 @@
           "name": "YouDied",
           "type": "ForgeMod",
           "artifact": {
-            "size": 289792,
+            "size": 289212,
             "url": "https://github.com/Zooto199/Luscious-Lunary-Furry/raw/main/app/assets/fileclient/mod/YouDied-1.20-3.0.0.17-forge.jar",
             "MD5": "placeholder"
           }
@@ -1082,7 +1082,7 @@
           "name": "Additional Lights",
           "type": "ForgeMod",
           "artifact": {
-            "size": 530432,
+            "size": 530405,
             "url": "https://github.com/Zooto199/Luscious-Lunary-Furry/raw/main/app/assets/fileclient/mod/additional_lights-1.20.1-2.1.7.jar",
             "MD5": "placeholder"
           }
@@ -1092,7 +1092,7 @@
           "name": "Can't Sleep, Clowns Will Eat Me",
           "type": "ForgeMod",
           "artifact": {
-            "size": 11264,
+            "size": 10525,
             "url": "https://github.com/Zooto199/Luscious-Lunary-Furry/raw/main/app/assets/fileclient/mod/cant_sleep_clowns_will_eat_me-1.20.1-1.1.0.1.jar",
             "MD5": "placeholder"
           }
@@ -1102,7 +1102,7 @@
           "name": "Cave Dweller",
           "type": "ForgeMod",
           "artifact": {
-            "size": 637952,
+            "size": 637026,
             "url": "https://github.com/Zooto199/Luscious-Lunary-Furry/raw/main/app/assets/fileclient/mod/cave_dweller-1.20.1-1.6.4.jar",
             "MD5": "placeholder"
           }
@@ -1112,9 +1112,29 @@
           "name": "Twilight Forest",
           "type": "ForgeMod",
           "artifact": {
-            "size": 23376896,
+            "size": 23332091,
             "url": "https://github.com/Zooto199/Luscious-Lunary-Furry/raw/main/app/assets/fileclient/mod/twilightforest-1.20.1-4.3.2508-universal.jar",
             "MD5": "placeholder"
+          }
+        },
+        {
+          "id": "caelus:caelus:3.1.0@jar",
+          "name": "Caelus",
+          "type": "ForgeMod",
+          "artifact": {
+              "size": 38912,
+              "url": "https://github.com/Zooto199/Luscious-Lunary-Furry/raw/main/app/assets/fileclient/mod/caelus-forge-3.1.0+1.20.jar",
+              "MD5": "placeholder"
+          }
+        },
+        {
+          "id": "origins:origins:1.20.1-1.10.0.9@jar",
+          "name": "Origins",
+          "type": "ForgeMod",
+          "artifact": {
+              "size": 2308096,
+              "url": "https://github.com/Zooto199/Luscious-Lunary-Furry/raw/main/app/assets/fileclient/mod/origins-forge-1.20.1-1.10.0.9-all.jar",
+              "MD5": "placeholder"
           }
         }
       ]

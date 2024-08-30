@@ -1122,7 +1122,7 @@
           "name": "Caelus",
           "type": "ForgeMod",
           "artifact": {
-              "size": 38912,
+              "size": 38169,
               "url": "https://github.com/Zooto199/Luscious-Lunary-Furry/raw/main/app/assets/fileclient/mod/caelus-forge-3.1.0+1.20.jar",
               "MD5": "placeholder"
           }
@@ -1132,7 +1132,7 @@
           "name": "Origins",
           "type": "ForgeMod",
           "artifact": {
-              "size": 2308096,
+              "size": 2307868,
               "url": "https://github.com/Zooto199/Luscious-Lunary-Furry/raw/main/app/assets/fileclient/mod/origins-forge-1.20.1-1.10.0.9-all.jar",
               "MD5": "placeholder"
           }

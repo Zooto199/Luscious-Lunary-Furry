@@ -41,5 +41,41 @@
       ]]></content:encoded>
       <slash:comments>0</slash:comments>
     </item>
+    <item>
+      <title>New Mods Added - September 2024</title>
+      <pubDate>Mon, 02 Sep 2024 15:30:00 +0000</pubDate>
+      <link>https://forum.westeroscraft.com/threads/september-mod-updates.4135/</link>
+      <guid isPermaLink="false">4135</guid>
+      <author>invalid@example.com (Zootopie)</author>
+      <category domain="https://forum.westeroscraft.com/forum/news.2/"><![CDATA[News]]></category>
+      <dc:creator>Zootopie</dc:creator>
+      <content:encoded><![CDATA[
+        <div class="bbWrapper">
+          <p>New mods have been added to enhance your gaming experience:</p>
+          <ul>
+            <li>Anomaly-1.1.2.jar (2237 KB - 01/09/2024 14:22:37) - Adds new anomalies that challenge your survival skills.</li>
+            <li>FarmersDelight-1.20.1-1.2.4.jar (2848 KB - 02/09/2024 15:26:33) - Expands the farming system with new crops, tools, and cooking recipes.</li>
+            <li>automodpack-mc1.20.1-forge-4.0.0-beta16.jar (4576 KB - 02/09/2024 14:24:26) - Automatically installs and manages mods for easier modding.</li>
+            <li>balm-forge-1.20.1-7.3.9-all.jar (365 KB - 02/09/2024 15:25:48) - A backend library for mod developers.</li>
+            <li>cuisinedelight-1.1.14.jar (825 KB - 02/09/2024 13:43:46) - Adds a variety of new culinary delights to the game.</li>
+            <li>dark-waters-connector-1.20.1-0.0.22.jar (4472 KB - 02/09/2024 14:13:42) - Enhances underwater exploration with new biomes and creatures.</li>
+            <li>fishingoverhaul-1.20.1-1.0.0.jar (29 KB - 02/09/2024 13:40:21) - Revamps the fishing system with new fish, mechanics, and items.</li>
+            <li>mcef-forge-2.1.4-1.20.1.jar (211 KB - 02/09/2024 11:34:07) - Browser library that allows for web-based interfaces within the game.</li>
+            <li>naturalist-forge-4.0.3-1.20.1.jar (3265 KB - 02/09/2024 14:05:22) - Introduces wildlife and ecosystems, enriching the natural world.</li>
+            <li>netherportalfix-forge-1.20-13.0.1.jar (213 KB - 02/09/2024 14:15:47) - Fixes issues with Nether portals linking incorrectly.</li>
+            <li>skinlayers3d-forge-1.6.7-mc1.20.1.jar (467 KB - 02/09/2024 15:09:00) - Adds 3D skin layers for a more detailed character appearance.</li>
+            <li>waterframes-FORGE-mc1.20.1-v2.1.3.jar (209 KB - 02/09/2024 12:43:16) - Adds water-themed frames for creative building.</li>
+            <li>watut-forge-1.20.1-1.1.3.jar (345 KB - 02/09/2024 14:21:38) - Adds unique utility tools for automation and efficiency.</li>
+            <li>webdisplays-2.0.1-1.20.1.jar (762 KB - 02/09/2024 11:31:25) - Brings web browsing to your in-game experience with web displays.</li>
+          </ul>
+          <p><strong>Removed mod:</strong></p>
+          <ul>
+            <li>origins-forge-1.20.1-1.10.0.9-all.jar (22254 KB - 30/08/2024 23:19:58) - This mod has been removed due to compatibility issues.</li>
+          </ul>
+          <p>Stay tuned for more updates in the future!</p>
+        </div>
+      ]]></content:encoded>
+      <slash:comments>0</slash:comments>
+    </item>
   </channel>
 </rss>

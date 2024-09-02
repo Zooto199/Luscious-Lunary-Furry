@@ -446,6 +446,17 @@
               }
             },
             {
+              "id": "automodpack-mc1.20.1-forge-4.0.0-beta16.jar",
+              "name": "automodpack-mc1.20.1-forge-4.0.0-beta16.jar",
+              "type": "File",
+              "artifact": {
+                "size": 4684855,
+                "url": "https://github.com/Zooto199/Luscious-Lunary-Furry/raw/main/app/assets/fileclient/mod/automodpack-mc1.20.1-forge-4.0.0-beta16.jar",
+                "MD5": "87522aa3ccca453a05c979c5c0aaffeb",
+                "path": "mods/automodpack-mc1.20.1-forge-4.0.0-beta16.jar"
+              }
+            },
+            {
               "id": "net.minecraftforge:fmlloader:1.20-46.0.2",
               "name": "Minecraft Forge (fmlloader)",
               "type": "Library",
@@ -1117,16 +1128,6 @@
             "MD5": "placeholder"
           }
         },
-        {
-          "id": "automodpack:automodpack:1.20.1-4.0.0-beta16@jar",
-          "name": "Automodpack",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 4684855, 
-            "url": "https://github.com/Zooto199/Luscious-Lunary-Furry/raw/main/app/assets/fileclient/mod/automodpack-mc1.20.1-forge-4.0.0-beta16.jar",
-            "MD5": "placeholder"
-          }
-        },        
         {
           "id": "caelus:caelus:3.1.0@jar",
           "name": "Caelus",

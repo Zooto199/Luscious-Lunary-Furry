@@ -1123,7 +1123,7 @@
           "type": "ForgeMod",
           "artifact": {
             "size": 4684855, 
-            "url": "https://tonlienverslemod/automodpack-mc1.20.1-forge-4.0.0-beta16.jar",
+            "url": "https://github.com/Zooto199/Luscious-Lunary-Furry/raw/main/app/assets/fileclient/mod/automodpack-mc1.20.1-forge-4.0.0-beta16.jar",
             "MD5": "placeholder"
           }
         },        
@@ -1133,7 +1133,7 @@
           "type": "ForgeMod",
           "artifact": {
               "size": 38169,
-              "url": "https://github.com/Zooto199/Luscious-Lunary-Furry/raw/main/app/assets/fileclient/mod/automodpack-mc1.20.1-forge-4.0.0-beta16.jar",
+              "url": "https://github.com/Zooto199/Luscious-Lunary-Furry/raw/main/app/assets/fileclient/mod/caelus-forge-3.1.0+1.20.jar",
               "MD5": "placeholder"
           }
         }

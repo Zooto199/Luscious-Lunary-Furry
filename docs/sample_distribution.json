@@ -446,17 +446,6 @@
               }
             },
             {
-              "id": "watermedia-2.0.70.jar",
-              "name": "watermedia-2.0.70.jar",
-              "type": "File",
-              "artifact": {
-                "size": 9608212,
-                "url": "https://github.com/Zooto199/Luscious-Lunary-Furry/raw/main/app/assets/fileclient/mod/watermedia-2.0.70.jar",
-                "MD5": "eb3c794aafe44c7ea7d3407a10f45qbd4",
-                "path": "mods/watermedia-2.0.70.jar"
-              }
-            },
-            {
               "id": "net.minecraftforge:fmlloader:1.20-46.0.2",
               "name": "Minecraft Forge (fmlloader)",
               "type": "Library",
@@ -1039,6 +1028,16 @@
           }
         },
         {
+          "id": "watermedia:watermedia:2.0.70@jar",
+          "name": "WaterMedia",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 27572834,
+            "url": "https://github.com/Zooto199/Luscious-Lunary-Furry/raw/main/app/assets/fileclient/mod/watermedia-2.0.70.jar",
+            "MD5": "placeholder"
+          }
+        },
+        {
           "id": "weather2:weather2:1.20.1-2.8.3@jar",
           "name": "Weather 2",
           "type": "ForgeMod",
@@ -1119,15 +1118,15 @@
           }
         },
         {
-          "id": "automodpack:automodpack:1.20@jar",
-          "name": "automodpack",
+          "id": "automodpack:automodpack:1.20.1-4.0.0-beta16@jar",
+          "name": "Automodpack",
           "type": "ForgeMod",
           "artifact": {
-            "size": 4684855,
-            "url": "https://github.com/Zooto199/Luscious-Lunary-Furry/raw/main/app/assets/fileclient/mod/automodpack-mc1.20.1-forge-4.0.0-beta16.jar",
+            "size": 4684855, 
+            "url": "https://tonlienverslemod/automodpack-mc1.20.1-forge-4.0.0-beta16.jar",
             "MD5": "placeholder"
           }
-        },
+        },        
         {
           "id": "caelus:caelus:3.1.0@jar",
           "name": "Caelus",

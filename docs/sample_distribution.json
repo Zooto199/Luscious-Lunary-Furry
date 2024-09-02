@@ -435,6 +435,16 @@
               }
             },
             {
+              "id": "watermedia-2.0.70.jar",
+              "name": "options.txt",
+              "type": "File",
+              "artifact": {
+                "size": 3378,
+                "url": "https://github.com/Zooto199/Luscious-Lunary-Furry/raw/main/app/assets/fileclient/options/watermedia-2.0.70.jar",
+                "path": "mods/watermedia-2.0.70.jar"
+              }
+            },
+            {
               "id": "Faithful 64x - Beta 9.zip",
               "name": "Faithful 64x - Beta 9.zip",
               "type": "File",
@@ -1028,12 +1038,12 @@
           }
         },
         {
-          "id": "watermedia:watermedia:2.0.69@jar",
+          "id": "watermedia:watermedia:2.0.70@jar",
           "name": "WaterMedia",
           "type": "ForgeMod",
           "artifact": {
-            "size": 27571910,
-            "url": "https://github.com/Zooto199/Luscious-Lunary-Furry/raw/main/app/assets/fileclient/mod/watermedia-2.0.69.jar",
+            "size": 27572834,
+            "url": "https://github.com/Zooto199/Luscious-Lunary-Furry/raw/main/app/assets/fileclient/mod/watermedia-2.0.70.jar",
             "MD5": "placeholder"
           }
         },
@@ -1124,16 +1134,6 @@
           "artifact": {
               "size": 38169,
               "url": "https://github.com/Zooto199/Luscious-Lunary-Furry/raw/main/app/assets/fileclient/mod/caelus-forge-3.1.0+1.20.jar",
-              "MD5": "placeholder"
-          }
-        },
-        {
-          "id": "origins:origins:1.20.1-1.10.0.9@jar",
-          "name": "Origins",
-          "type": "ForgeMod",
-          "artifact": {
-              "size": 2307868,
-              "url": "https://github.com/Zooto199/Luscious-Lunary-Furry/raw/main/app/assets/fileclient/mod/origins-forge-1.20.1-1.10.0.9-all.jar",
               "MD5": "placeholder"
           }
         }

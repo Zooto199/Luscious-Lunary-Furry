@@ -435,16 +435,6 @@
               }
             },
             {
-              "id": "watermedia-2.0.70.jar",
-              "name": "options.txt",
-              "type": "File",
-              "artifact": {
-                "size": 3378,
-                "url": "https://github.com/Zooto199/Luscious-Lunary-Furry/raw/main/app/assets/fileclient/options/watermedia-2.0.70.jar",
-                "path": "mods/watermedia-2.0.70.jar"
-              }
-            },
-            {
               "id": "Faithful 64x - Beta 9.zip",
               "name": "Faithful 64x - Beta 9.zip",
               "type": "File",
@@ -453,6 +443,17 @@
                 "url": "https://www.curseforge.com/api/v1/mods/419139/files/4626083/download",
                 "MD5": "eb3c794aafe44c7ea7d3407a10553bd4",
                 "path": "resourcepacks/Faithful 64x - Beta 9.zip"
+              }
+            },
+            {
+              "id": "watermedia-2.0.70.jar",
+              "name": "watermedia-2.0.70.jar",
+              "type": "File",
+              "artifact": {
+                "size": 9608212,
+                "url": "https://github.com/Zooto199/Luscious-Lunary-Furry/raw/main/app/assets/fileclient/mod/watermedia-2.0.70.jar",
+                "MD5": "eb3c794aafe44c7ea7d3407a10f45qbd4",
+                "path": "mods/watermedia-2.0.70.jar"
               }
             },
             {
@@ -1038,16 +1039,6 @@
           }
         },
         {
-          "id": "watermedia:watermedia:2.0.70@jar",
-          "name": "WaterMedia",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 27572834,
-            "url": "https://github.com/Zooto199/Luscious-Lunary-Furry/raw/main/app/assets/fileclient/mod/watermedia-2.0.70.jar",
-            "MD5": "placeholder"
-          }
-        },
-        {
           "id": "weather2:weather2:1.20.1-2.8.3@jar",
           "name": "Weather 2",
           "type": "ForgeMod",
@@ -1124,6 +1115,16 @@
           "artifact": {
             "size": 23332091,
             "url": "https://github.com/Zooto199/Luscious-Lunary-Furry/raw/main/app/assets/fileclient/mod/twilightforest-1.20.1-4.3.2508-universal.jar",
+            "MD5": "placeholder"
+          }
+        },
+        {
+          "id": "automodpack:automodpack:1.20@jar",
+          "name": "automodpack",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 4684855,
+            "url": "https://github.com/Zooto199/Luscious-Lunary-Furry/raw/main/app/assets/fileclient/mod/automodpack-mc1.20.1-forge-4.0.0-beta16.jar",
             "MD5": "placeholder"
           }
         },

@@ -8,6 +8,33 @@
     <generator>Luscious Lunary Furry Forums</generator>
     <link>https://forum.westeroscraft.com/</link>
     <atom:link rel="self" type="application/rss+xml" href="https://forum.westeroscraft.com/forum/news.2/index.rss"/>
+
+    <item>
+      <title>New Mods Added - September 2024</title>
+      <pubDate>Tue, 03 Sep 2024 13:00:00 +0000</pubDate>
+      <link>https://forum.westeroscraft.com/threads/september-mod-updates-part-2.4136/</link>
+      <guid isPermaLink="false">4136</guid>
+      <author>invalid@example.com (Zootopie)</author>
+      <category domain="https://forum.westeroscraft.com/forum/news.2/"><![CDATA[News]]></category>
+      <dc:creator>Zootopie</dc:creator>
+      <content:encoded><![CDATA[
+        <div class="bbWrapper">
+          <p>New mods have been added to enhance your gaming experience:</p>
+          <ul>
+            <li>Lunar-forge-1.20.1-0.2.0.jar (86 KB - 03/09/2024 12:34:25) - Adds lunar-themed features to your game.</li>
+            <li>MobCaptains-v3.1.2.jar (143 KB - 03/09/2024 12:21:31) - Introduces new mob captains with unique abilities.</li>
+            <li>appleskin-forge-mc1.20.1-2.5.1.jar (47 KB - 03/09/2024 11:35:06) - Displays detailed hunger and saturation values.</li>
+            <li>bettercombat-forge-1.8.6+1.20.1.jar (1026 KB - 03/09/2024 12:46:54) - Enhances combat mechanics for a more immersive experience.</li>
+            <li>deeperdarker-forge-1.20.1-1.3.1.jar (17426 KB - 03/09/2024 11:45:32) - Expands the game with darker and deeper dimensions.</li>
+            <li>endermanoverhaul-forge-1.20.1-1.0.4.jar (1180 KB - 03/09/2024 12:05:49) - Overhauls Enderman behavior and appearance.</li>
+            <li>player-animation-lib-forge-1.0.2-rc1+1.20.jar (178 KB - 03/09/2024 12:58:28) - Adds new player animations for a more dynamic experience.</li>
+            <li>the_bumblezone-7.4.18+1.20.1-forge.jar (51018 KB - 03/09/2024 12:51:46) - Introduces a new dimension filled with bees and honey-themed content.</li>
+          </ul>
+          <p>Stay tuned for more updates in the future!</p>
+        </div>
+      ]]></content:encoded>
+      <slash:comments>0</slash:comments>
+    </item>
     
     <item>
       <title>New Mods Added - September 2024</title>

@@ -509,16 +509,6 @@
           }
         },
         {
-          "id": "coldsweat:coldsweat:2.3.3@jar",
-          "name": "ColdSweat",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 8427815,
-            "url": "https://github.com/Zooto199/Luscious-Lunary-Furry/raw/main/app/assets/fileclient/mod/ColdSweat-2.3.3.jar",
-            "MD5": "placeholder"
-          }
-        },
-        {
           "id": "creativecore:creativecore:v2.11.37_mc1.20.1@jar",
           "name": "CreativeCore",
           "type": "ForgeMod",
@@ -545,16 +535,6 @@
           "artifact": {
             "size": 11449497,
             "url": "https://github.com/Zooto199/Luscious-Lunary-Furry/raw/main/app/assets/fileclient/mod/DoggyTalentsNext-1.20.1-1.18.29.jar",
-            "MD5": "placeholder"
-          }
-        },
-        {
-          "id": "enhancedvisuals:enhancedvisuals:v1.8.1_mc1.20.1@jar",
-          "name": "Enhanced Visuals",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 4726281,
-            "url": "https://github.com/Zooto199/Luscious-Lunary-Furry/raw/main/app/assets/fileclient/mod/EnhancedVisuals_FORGE_v1.8.1_mc1.20.1.jar",
             "MD5": "placeholder"
           }
         },

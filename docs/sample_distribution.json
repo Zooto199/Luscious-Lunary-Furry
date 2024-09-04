@@ -959,16 +959,6 @@
           }
         },
         {
-          "id": "rubidium:rubidium:mc1.20.1-0.7.1a@jar",
-          "name": "Rubidium",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 715190,
-            "url": "https://github.com/Zooto199/Luscious-Lunary-Furry/raw/main/app/assets/fileclient/mod/rubidium-mc1.20.1-0.7.1a.jar",
-            "MD5": "placeholder"
-          }
-        },
-        {
           "id": "sliceanddice:sliceanddice:3.2.1@jar",
           "name": "Slice and Dice",
           "type": "ForgeMod",

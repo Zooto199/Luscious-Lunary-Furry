@@ -529,16 +529,6 @@
           }
         },
         {
-          "id": "doggytalents:doggytalents:1.20.1-1.18.29@jar",
-          "name": "Doggy Talents",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 11449497,
-            "url": "https://github.com/Zooto199/Luscious-Lunary-Furry/raw/main/app/assets/fileclient/mod/DoggyTalentsNext-1.20.1-1.18.29.jar",
-            "MD5": "placeholder"
-          }
-        },
-        {
           "id": "epic_dungeons:epic_dungeons:0.1.04@jar",
           "name": "Epic Dungeons",
           "type": "ForgeMod",

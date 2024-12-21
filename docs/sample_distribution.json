@@ -709,16 +709,6 @@
           }
         },
         {
-          "id": "aether:aether:1.20.1-1.4.2@jar",
-          "name": "Aether",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 23454164,
-            "url": "https://github.com/Zooto199/Luscious-Lunary-Furry/raw/main/app/assets/fileclient/mod/aether-1.20.1-1.4.2-neoforge.jar",
-            "MD5": "placeholder"
-          }
-        },
-        {
           "id": "alexsmobs:alexsmobs:1.22.8@jar",
           "name": "Alex's Mobs",
           "type": "ForgeMod",

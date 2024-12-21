@@ -8,7 +8,7 @@
   "java": {
     "oracle": "http://www.oracle.com/technetwork/java/javase/downloads/jre8-downloads-2133155.html"
   },
-  "rss": "https://cdn.discordapp.com/attachments/244922787238510593/1280485325956976680/news.rss?ex=66d84063&is=66d6eee3&hm=b934b80a380fae5a8a5d25e890e9d93916d06c0b6e644a1bae5f49ce35775cd3&",
+  "rss": "https://cdn.discordapp.com/attachments/244922787238510593/1279040557905088512/news.rss?ex=6767f858&is=6766a6d8&hm=e2198b70605f61ea8647ee562889a65dbbf9c2a1612a4c6b5f65cb613ba4f497&",
   "servers": [
     {
       "id": "LusciousLunaryFurry-1.20.1",
@@ -16,7 +16,7 @@
       "description": "Let’s Get Wild and Naughty ! [1.20.1] Forge 47.3.6.",
       "icon": "https://raw.githubusercontent.com/Zooto199/Luscious-Lunary-Furry/main/app/assets/images/server.png",
       "version": "0.0.1",
-      "address": "lunaryfurry.omgcraft.fr",
+      "address": "sunixes.com:30011",
       "minecraftVersion": "1.20.1",
       "discord": {
         "shortId": "Production",
@@ -679,12 +679,12 @@
           }
         },
         {
-          "id": "xaeros_minimap:xaeros_minimap:24.4.0@jar",
+          "id": "xaeros_minimap:xaeros_minimap:24.6.1@jar",
           "name": "Xaero's Minimap",
           "type": "ForgeMod",
           "artifact": {
             "size": 1531047,
-            "url": "https://github.com/Zooto199/Luscious-Lunary-Furry/raw/main/app/assets/fileclient/mod/Xaeros_Minimap_24.4.0_Forge_1.20.jar",
+            "url": "https://github.com/Zooto199/Luscious-Lunary-Furry/raw/main/app/assets/fileclient/mod/Xaeros_Minimap_24.6.1_Forge_1.20.jar",
             "MD5": "placeholder"
           }
         },

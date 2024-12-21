@@ -683,7 +683,7 @@
           "name": "Xaero's Minimap",
           "type": "ForgeMod",
           "artifact": {
-            "size": 1531047,
+            "size": 1605900,
             "url": "https://github.com/Zooto199/Luscious-Lunary-Furry/raw/main/app/assets/fileclient/mod/Xaeros_Minimap_24.6.1_Forge_1.20.jar",
             "MD5": "placeholder"
           }
@@ -1035,6 +1035,16 @@
           "artifact": {
             "size": 289212,
             "url": "https://github.com/Zooto199/Luscious-Lunary-Furry/raw/main/app/assets/fileclient/mod/YouDied-1.20-3.0.0.17-forge.jar",
+            "MD5": "placeholder"
+          }
+        },
+        {
+          "id": "curios:curios:1.20-5.11.0@jar",
+          "name": "curios",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 389988,
+            "url": "https://github.com/Zooto199/Luscious-Lunary-Furry/raw/main/app/assets/fileclient/mod/curios-forge-5.11.0+1.20.1.jar",
             "MD5": "placeholder"
           }
         },

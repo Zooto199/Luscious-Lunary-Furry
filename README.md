@@ -1,6 +1,6 @@
 
 <p align="center">
-    <img src="./app/assets/images/LoadingSeal.png" width="150px" height="150px" alt="Luscious Lunary Furry Logo">
+    <img src="./app/assets/images/LoadingSeal.png" width="300px" height="300px" alt="Luscious Lunary Furry Logo">
 </p>
 
 <h1 align="center">Luscious Lunary Furry</h1>

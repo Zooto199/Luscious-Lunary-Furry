@@ -2,7 +2,7 @@ appId: 'LusciousLunaryFurry'
 productName: 'Luscious Lunary Furry'
 artifactName: 'Luscious-Lunary-Furry-setup-${version}.${ext}'
 
-copyright: 'Copyright © 2018-2024 Zootopie'
+copyright: 'Copyright © 2018-2025 Zootopie'
 
 asar: true
 compression: 'maximum'

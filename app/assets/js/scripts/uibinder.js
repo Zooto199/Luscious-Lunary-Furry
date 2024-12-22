@@ -67,10 +67,35 @@ async function showMainUI(data){
     await prepareSettings(true)
     updateSelectedServer(data.getServerById(ConfigManager.getSelectedServer()))
     refreshServerStatus()
+    const fs = require('fs');
+    const path = require('path');
+    
     setTimeout(() => {
-        document.getElementById('frameBar').style.backgroundColor = 'rgba(0, 0, 0, 0.5)'
-        document.body.style.backgroundImage = `url('assets/images/backgrounds/${document.body.getAttribute('bkid')}.jpg')`
-        $('#main').show()
+        document.getElementById('frameBar').style.backgroundColor = 'rgba(0, 0, 0, 0.5)';
+    
+        const bkid = document.body.getAttribute('bkid');
+        const basePath = path.join(__dirname, `assets/images/backgrounds/${bkid}`);
+        const extensions = ['.jpg', '.png', '.gif'];
+    
+        let validBackground = null;
+    
+        // Vérifie chaque extension localement
+        for (const ext of extensions) {
+            const filePath = `${basePath}${ext}`;
+            if (fs.existsSync(filePath)) {
+                validBackground = `assets/images/backgrounds/${bkid}${ext}`;
+                break;
+            }
+        }
+    
+        if (validBackground) {
+            document.body.style.backgroundImage = `url('${validBackground}')`;
+            console.log(`Fond appliqué : ${validBackground}`);
+        } else {
+            console.error(`Aucun fichier valide trouvé pour ${bkid} avec les extensions ${extensions.join(', ')}`);
+        }
+    
+        $('#main').show(); 
 
         const isLoggedIn = Object.keys(ConfigManager.getAuthAccounts()).length > 0
 
